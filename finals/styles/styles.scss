@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #DFDFDF;
+
+    li, a, button {
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #58697A;
+        text-decoration: none;
+    }
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 3%;
+        border-bottom: 3px solid #58697A;
+    }
+    
+    .logo{
+        cursor: pointer;
+        width: 200px;
+    }
+    
+    .navlinks{
+        list-style: none;
+    }
+    
+    .navlinks li {
+        display: inline-block;
+        padding: 0px 20px;
+    }
+    
+    .navlinks li a {
+        transition: all 0.3s ease 0s;
+    }
+    
+    .navlinks li a:hover {
+        color: black;
+    }
+    
+    .search {
+        width: max-content;
+        display: flex;
+        align-items: center;
+        padding: 14px;
+    }
+    
+    .search-input {
+        font-size: 16px;
+        font-family: "Inter", sans-serif;
+        background: transparent;
+        border-radius: 15px;
+        padding: 10px;
+        outline: none;
+        border: 2px solid black;
+    }
+
+    .hometitle{
+        font-family: "Galada", sans-serif;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 80px;
+        color: #58697A;
+        font-weight: 300;
+    }
+
+    .recipes{
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        
+    }
+
+    .recipe1 img, .recipe2 img, .recipe3 img, .recipe4 img, .recipe5 img{
+        width: 200px;
+        height: 150px;
+        border: 2px solid black;
+        box-shadow: 10px 10px rgb(185, 182, 182);
+    }
+
+    .recipe1 h4, .recipe2 h4, .recipe3 h4, .recipe4 h4, .recipe5 h4{
+        font-family: "Gelasio", sans-serif;
+        font-style: italic;
+        font-weight: 100;
+        color: #58697A;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .recipe1 p, .recipe2 p, .recipe3 p, .recipe4 p, .recipe5 p{
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        text-align: center;
+    }
+
+    
+    .layout-footer{
+        font-size: 20px;
+        background-color: #DFDFDF;
+        color: black;
+        text-align: center;
+        padding: 20px;
+        border-top: 3px solid #58697A;
+    }
+    
+    .homepage {
+        font-size: 100px;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #DFDFDF;
+    }
+    
+
+
+}
+
