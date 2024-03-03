@@ -1,8 +1,8 @@
 import "@/styles/globals.css";
 import "/styles/styles.scss"
 
-import Header from "/components/Constants/Header"
-import Footer from "/components/Constants/Footer"
+import Header from "/components/constants/Header"
+import Footer from "/components/constants/Footer"
 
 
 function App({ Component, pageProps }) {
