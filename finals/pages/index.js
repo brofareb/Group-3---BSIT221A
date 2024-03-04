@@ -1,6 +1,9 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
+import grilledlemon from '../public/grilledlemon.jpg';
+import quinoa from '../public/quinoa.png';
+import shrimp from '../public/shrimp.jpg';
 import styles from "@/styles/Home.module.css";
 import Header from "@/components/constants/Header";
 
@@ -20,7 +23,56 @@ export default function Home() {
       <div class="text-center">
         <h1 class="hometitle">Top 10 Recipes</h1>
         <div class="recipes">
-          <div class="recipe1">
+          <div class="recipes1">
+            <div class="recipe1">
+              <Image
+                src={grilledlemon} 
+                alt="Grilled Lemon Herb Chicken"
+                width='200'
+                height='150'
+              />
+
+              <h4>Grilled Lemon Herb Chicken</h4>
+              <p>You'll love the simple lemon <br />
+              marinade on this grilled chicken! <br />
+              It's so easy, bright, and flavorful.
+            </p>
+            </div>
+
+            <div class="recipe2">
+              <Image 
+                src={quinoa}
+                alt="Quinoa Black and Bean Salad"
+                width = '200'
+                height ='150'
+              />
+
+              <h4>Quinoa Black and Bean Salad</h4>
+              <p>This Superfood Black Bean & <br />
+                Quinoa Salad Recipe is one of my <br />
+                absolute favorite quick meals to make...
+              </p>
+            </div>
+
+            <div class="recipe3">
+              <Image 
+                src = {shrimp}
+                alt="Shrimp and Avocado Salad"
+                width='200'
+                height ='150'    
+              />
+
+              <h4>Shrimp and Avocado Salad</h4>
+              <p>
+              The simple but totally flavorful <br />
+                shrimp salad makes the perfect <br />
+                meal-prep for lunch or dinner ..
+              </p>
+
+
+
+            </div>
+
             
 
           </div>

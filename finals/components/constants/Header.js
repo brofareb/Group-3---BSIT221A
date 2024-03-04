@@ -1,10 +1,25 @@
 import Image from "next/image"
 
 
+
+
 export default function Header () {
     return (
         <>
         <div class="header">
+
+           {['origlogo'].map((path) => {
+            return (
+                <div key={path}>
+                    <Image
+                        src={`/${path}.png`} 
+                        alt="The Recipe Room Logo"
+                        width='200'
+                        height='30'
+                    />
+                    </div>
+                )
+            })}
         <nav>
             <ul class="navlinks">
                 <li><a href="#">HOME</a></li>
