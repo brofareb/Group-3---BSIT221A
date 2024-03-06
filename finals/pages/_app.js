@@ -1,5 +1,6 @@
-import "@/styles/globals.css";
-import "/styles/styles.scss"
+import "/styles/footer.scss"
+import "/styles/header.scss"
+import "/styles/home.scss"
 
 import Header from "/components/constants/Header"
 import Footer from "/components/constants/Footer"
