@@ -25,7 +25,7 @@ export default function Header () {
                 <li><a href="#">HOME</a></li>
                 <li><a href="#">RECIPE</a></li>
                 <li><a href="#">ABOUT US</a></li>
-                <li><a href="#">CONTACT US</a></li>
+                <li><a href="contact-us.js">CONTACT US</a></li>
             </ul>
         </nav>
         <form>
