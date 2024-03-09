@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     background-color: #DFDFDF;
+    --color2: #DFDFDF ;
+    --color1: #58697A ;
 
     li, a, button {
         font-family: "Inter", sans-serif;
@@ -34,6 +36,59 @@
         }
     }
     
+// hamburger menu toh
+.menu {display: none;}
+.menu li {padding-left: 30px;}
+.menu li a {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--color1);
+    text-align: center;
+    transition: 0.15s ease-in-out;
+    position: relative;
+    text-transform: uppercase;
+}
+.menu li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: var(--color1);
+    transition: 0.15s ease-in-out;
+}
+.menu li a:hover:after {width: 100%;}
+.open-menu {
+    position:relative;
+    margin-top: 20px;
+    left: 10px;
+    color: var(--color1);
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+
+.close-menu {
+    position:absolute;
+    color: var(--color1);
+    cursor: pointer;
+    font-size: 1.5rem;
+    display: none;
+}
+.open-menu {
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+.close-menu {
+    top: 20px;
+    right: 20px;
+}
+#check {display: none;}
+//end ng hamburger menu
+
+
     .search {
         width: max-content;
         display: flex;
@@ -69,6 +124,26 @@
         width: 200px;
         margin-left: 20px;
     }
+
+    .menu {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        z-index: 100;
+        background-color: var(--color2);
+        transition: all 0.2s ease-in-out;
+    }
+    .menu li {margin-top: 40px;}
+    .menu li a {padding: 10px;}
+    .open-menu , .close-menu {display:flow-root;}
+    #check:checked ~ .menu {right: 0;}
+
 }
 
 

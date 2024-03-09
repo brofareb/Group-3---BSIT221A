@@ -36,6 +36,19 @@ export default function Header () {
                 <Link className="link" href="/contactus">CONTACT US</Link>
             </ul>
         </nav>
+
+        <input type='checkbox' id='check' />
+            
+            <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+
+                <span class="menu">
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                    <li><a href="/home">HOME</a></li>
+                    <li><a href="/home#section3">RECIPE</a></li>
+                    <li><a href="/aboutus">ABOUT US</a></li>
+                    <li><a href="/contactus">CONTACT US</a></li>    
+                </span>
+            
         <form>
             <div class="search">
                 <input class="search-input" type="search" placeholder="Search Recipes..."></input>
