@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Galada&family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Galada&family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&display=swap');
 
+
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -24,49 +26,157 @@
         
     }
 
-    .recipe1 img, .recipe2 img, .recipe3 img, .recipe4 img, .recipe5 img{
-        width: 200px;
-        height: 150px;
+    .recipe img {
+        width: 150px;
+        height: 100px;
         border: 2px solid black;
         box-shadow: 10px 10px rgb(185, 182, 182);
     }
 
-    .recipe1 h4, .recipe2 h4, .recipe3 h4, .recipe4 h4, .recipe5 h4{
+    .recipe h4{
         font-family: "Gelasio", sans-serif;
         font-style: italic;
         font-weight: 100;
         color: #58697A;
         margin-top: 10px;
         text-align: center;
+        font-size: 13px;
+        
     }
 
-    .recipe1 p, .recipe2 p, .recipe3 p, .recipe4 p, .recipe5 p{
+    .recipe p{
         font-family: "Inter", sans-serif;
-        font-size: 14px;
+        font-size: 10px;
         text-align: center;
-        color: black;
+        
+        
     }
 
-    
-    .layout-footer{
-        font-size: 20px;
-        background-color: #DFDFDF;
-        color: black;
-        text-align: center;
-        padding: 20px;
-        border-top: 3px solid #58697A;
+    .viewmore {
+        display: block;
+        margin: auto;
+        height: 40px;
+        padding: 0 20px;
+        border: 0;
+        border-radius: 4px;
+        background-color: #58697A;
+        color: white;
+        transition: .3s linear;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
-    
-    .homepage {
-        font-size: 100px;
-        height: 100vh;
+
+    .viewmore:hover {
+        opacity: .5;
+        cursor: pointer;
+    }
+
+    .button {
+        border-bottom: 3px solid #58697A;
+    }
+
+    .container2 {
+        border-bottom: 3px solid #58697A;
+    }
+
+    .heart {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .heart img{
+        width: 70px;
+    }
+
+    .text-c2{
+        font-family: "Gelasio", sans-serif;
+        font-size: 50px;
+        font-style: italic;
+        text-align: center;
+        color: #58697A;
+        padding: 5px;
+    }
+
+    .logo1 img{
+        width: 150px;
+    }
+
+    .logo1 {
+        text-align: center;
+    }
+
+    .spoon {
+        text-align: center;
+    }
+
+    .spoon img{
+        width: 70px;
+    }
+
+    .latestrecipes {
+        font-family: "Galada", sans-serif;
+        font-size: 80px;
+        text-align: center;
+        font-weight: 400;
+        color: #58697A;
+    }
+
+    .category{
         display: flex;
-        justify-content: center;
         align-items: center;
-        background-color: #DFDFDF;
+        text-align: center;
+        justify-content: space-evenly;
     }
-    
 
+    .category img {
+        width: 300px;
+        height: 350px;
+        margin: 30px 80px;
+        border: 2px solid black;
+        box-shadow: 10px 10px rgb(185, 182, 182);
+        
+    }
+
+    .category h1{
+        font-family: "Gelasio", sans-serif;
+        font-style: italic;
+        font-weight: 100;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 80px;
+        
+    }
+
+    .category p {
+        font-family: "Inter", sans-serif;
+        font-size: 20px;
+        text-align: center;
+        align-items: center;
+        padding: 30px;
+        font-style: italic;
+        color: #58697A;
+
+    }
+
+    .viewmore-section3 {
+        display: block;
+        margin: auto;
+        height: 40px;
+        padding: 0 20px;
+        border: 0;
+        border-radius: 4px;
+        background-color: #58697A;
+        color: white;
+        transition: .3s linear;
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .viewmore-section3:hover {
+        opacity: .5;
+        cursor: pointer;
+    }
 
 }
+
 

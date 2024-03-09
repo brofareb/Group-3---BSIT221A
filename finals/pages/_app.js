@@ -2,8 +2,10 @@ import "/styles/footer.scss"
 import "/styles/header.scss"
 import "/styles/home.scss"
 
+
 import Header from "/components/constants/Header"
 import Footer from "/components/constants/Footer"
+
 
 
 function App({ Component, pageProps }) {
@@ -11,6 +13,7 @@ function App({ Component, pageProps }) {
   <>
     <Header />
   <Component {...pageProps} />
+  
   <Footer />
   </>
   )
