@@ -8,19 +8,52 @@
     margin: 0;
     padding: 0;
     background-color: #DFDFDF;
+    font-family: "Inter", sans-serif;   
 
     .contact-title {
-        font-size: 30px;
+        font-size: 4vh;
         text-align: center;
-        font-family: "Inter", sans-serif;
+        margin-top: 20px;
+        margin-bottom: 20px;
         color: #58697A;
     }
 
+    .body{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        margin-bottom: 20px;
+        color: #58697A;
+        font-size: 3vh;
 
+        .contact, .inquiry{        
+            text-align: start;
+            font-style: italic;
+            font-weight: bold;
+            margin: 5%;
+            width: 40%;
+        
+            .contact-list{
+                margin-top: 3%;
+                margin-left: 5%;
+                position: relative;
+        
+                .contact-list ul li{
+                    font-size: 3vh;
+                }
+            }
+        
+            .info-email{
+                margin-top: 3%;
+                margin-left: 5%;
+                position: relative;
 
+                .info-email ul li{
+                    font-size: 3vh;
+                }
+            }
+        }
 
-
-
-
-
-}
+    }
+}   
