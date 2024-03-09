@@ -1,0 +1,302 @@
+[
+    {
+      "id": 1,
+      "Recipe Name": "Grilled Lemon Herb Chicken",
+      "Ingredients": {
+        "Ingredient 1:" : "Chicken Breast",
+        "Ingredient 2" : "Lemon",
+        "Ingredient 3" : "Olive Oil",
+        "Ingredient 4" : "Garlic",
+        "Ingredient 5" : "Fresh Rosemary",
+        "Ingredient 6" : "Fresh Thyme",
+        "Ingredient 7" : "Salt",
+        "Ingredient 8" : "Black Pepper",
+        "Ingredient 9" : "Dijon Mustard",
+        "Ingredient 10" : "Honey"
+      },
+      "Instructions":{
+        "Instruction 1": "In a bowl, mix lemon juice, olive oil, minced garlic, chopped rosemary, thyme, salt, black pepper, Dijon mustard, and honey to create a marinade.",
+        "Instruction 2": "Coat chicken with the marinade and let it sit for at least 30 minutes.",
+        "Instruction 3": "Preheat the grill.",
+        "Instruction 4": "Grill chicken until fully cooked, basting with marinade.",
+        "Instruction 5": "Let it rest for a few minutes before serving."
+      },
+      "Preparation Time:": "15 minutes",
+      "Cooking Time": "20 minutes",
+      "Difficulty Level": "Intermediate",
+      "Dietary Restriction": "None",
+      "Calories": "300 kcal",
+      "Recipe Description": "A flavorful and healthy grilled chicken marinated in a zesty lemon and herb mixture."
+    },
+
+    {
+        "id": 2,
+        "Recipe Name": "Quinoa and Black Bean Salad",
+        "Ingredients": {
+          "Ingredient 1:" : "Quinoa",
+          "Ingredient 2" : "Black Beans",
+          "Ingredient 3" : "Cherry Tomatoes",
+          "Ingredient 4" : "Corn Kernels",
+          "Ingredient 5" : "Red Bell Pepper",
+          "Ingredient 6" : "Cilantro",
+          "Ingredient 7" : "Lime Juice",
+          "Ingredient 8" : "Olive Oil",
+          "Ingredient 9" : "Cumin",
+          "Ingredient 10" : "Salt"
+        },
+        "Instructions":{
+          "Instruction 1": "Cook quinoa according to package instructions.",
+          "Instruction 2": "In a bowl, combine quinoa, black beans, chopped tomatoes, corn, diced bell pepper, and chopped cilantro. ",
+          "Instruction 3": "In a separate bowl, whisk together lime juice, olive oil, ground cumin, and salt.",
+          "Instruction 4": "Pour the dressing over the quinoa mixture and toss until well combined.",
+          "Instruction 5": "Chill in the refrigerator before serving."
+        },
+        "Preparation Time:": "15 minutes",
+        "Cooking Time": "20 minutes",
+        "Difficulty Level": "Easy",
+        "Dietary Restriction": "Vegetarian",
+        "Calories": "250 kcal",
+        "Recipe Description": "A refreshing and protein-packed salad with quinoa, black beans, and colorful vegetables."
+      },
+
+      {
+        "id": 3,
+        "Recipe Name": "Shrimp and Avocado Salad",
+        "Ingredients": {
+          "Ingredient 1:" : "Shrimp",
+          "Ingredient 2" : "Avocado",
+          "Ingredient 3" : "Mixed Greens",
+          "Ingredient 4" : "Cherry Tomatoes",
+          "Ingredient 5" : "Red Onion",
+          "Ingredient 6" : "Olive Oil",
+          "Ingredient 7" : "Lime Juice",
+          "Ingredient 8" : "Cilantro",
+          "Ingredient 9" : "Black Pepper",
+          "Ingredient 10" : "Salt"
+        },
+        "Instructions":{
+          "Instruction 1": "Season shrimp with salt and pepper, then grill until cooked.",
+          "Instruction 2": "In a large bowl, combine mixed greens, sliced avocado, halved cherry tomatoes, and thinly sliced red onion.",
+          "Instruction 3": "Whisk together olive oil, lime juice, chopped cilantro, salt, and pepper to create the dressing.",
+          "Instruction 4": "Toss the salad with the dressing and top with grilled shrimp.",
+          "Instruction 5": ""
+        },
+        "Preparation Time:": "15 minutes",
+        "Cooking Time": "5 minutes",
+        "Difficulty Level": "Easy",
+        "Dietary Restriction": " Gluten-free",
+        "Calories": "200 kcal",
+        "Recipe Description": "A light and refreshing salad with grilled shrimp, avocado, and a zesty lime dressing."
+      },
+
+      {
+        "id": 4,
+        "Recipe Name": "Teriyaki Tofu Stir-Fry",
+        "Ingredients": {
+          "Ingredient 1:" : "Firm Tofu",
+          "Ingredient 2" : "Broccoli",
+          "Ingredient 3" : "Bell Peppers",
+          "Ingredient 4" : "Carrots",
+          "Ingredient 5" : "Red Onion",
+          "Ingredient 6" : "Snow Peas",
+          "Ingredient 7" : "Rice Vinegar",
+          "Ingredient 8" : "Brown Sugar",
+          "Ingredient 9" : "Garlic",
+          "Ingredient 10" : "Sesame Oil"
+        },
+        "Instructions":{
+          "Instruction 1": "Press tofu to remove excess water and cut into cubes.",
+          "Instruction 2": "Stir-fry tofu until golden brown, then set aside.",
+          "Instruction 3": "Stir-fry vegetables in sesame oil until tender-crisp.",
+          "Instruction 4": "In a bowl, mix soy sauce, rice vinegar, brown sugar, and minced garlic to make the teriyaki sauce.",
+          "Instruction 5": "Add tofu and sauce to the vegetables, toss until coated."
+        },
+        "Preparation Time:": "20 minutes",
+        "Cooking Time": "15 minutes",
+        "Difficulty Level": "Intermediate",
+        "Dietary Restriction": "Vegan",
+        "Calories": "250 kcal",
+        "Recipe Description": "A savory and sweet tofu stir-fry with colorful vegetables in a homemade teriyaki sauce."
+      },
+
+      {
+        "id": 5,
+        "Recipe Name": "Salmon and Asparagus Foil Packets",
+        "Ingredients": {
+          "Ingredient 1:" : "Salmon Fillets",
+          "Ingredient 2" : "Asparagus Spears",
+          "Ingredient 3" : "Lemon",
+          "Ingredient 4" : "Fresh Dill",
+          "Ingredient 5" : "Olive Oil",
+          "Ingredient 6" : "Garlic Powder",
+          "Ingredient 7" : "Salt",
+          "Ingredient 8" : "Black Pepper",
+          "Ingredient 9" : "Cherry Tomatoes",
+          "Ingredient 10" : "White Wine (Optional)"
+        },
+        "Instructions":{
+          "Instruction 1": "Preheat oven to 400°F (200°C).",
+          "Instruction 2": "Place salmon fillets on sheets of foil, surround with asparagus and cherry tomatoes.",
+          "Instruction 3": "Drizzle with olive oil and white wine (if using).",
+          "Instruction 4": "Sprinkle with minced garlic, salt, pepper, and fresh dill.",
+          "Instruction 5": "Seal foil packets and bake for 20 minutes."
+        },
+        "Preparation Time:": "15 minutes",
+        "Cooking Time": "20 minutes",
+        "Difficulty Level": "Intermediate",
+        "Dietary Restriction": "Low-carb",
+        "Calories": "300 kcal",
+        "Recipe Description": "A simple and healthy dish where salmon and asparagus are cooked to perfection in foil packets with a lemon-dill seasoning."
+      },
+
+      {
+        "id": 6,
+        "Recipe Name": "Sweet Potato and Black Bean Enchiladas",
+        "Ingredients": {
+          "Ingredient 1:" : "Sweet Potatoes",
+          "Ingredient 2" : "Black Beans",
+          "Ingredient 3" : "Red Onion",
+          "Ingredient 4" : "Enchilada Sauce",
+          "Ingredient 5" : "Corn Tortillas",
+          "Ingredient 6" : "Cumin",
+          "Ingredient 7" : "Paprika",
+          "Ingredient 8" : "Garlic Powder",
+          "Ingredient 9" : "Cilantro",
+          "Ingredient 10" : "Shredded Cheese"
+        },
+        "Instructions":{
+          "Instruction 1": "Cook diced sweet potatoes until tender.",
+          "Instruction 2": "In a bowl, mix sweet potatoes, black beans, diced red onion, cumin, paprika, and garlic powder.",
+          "Instruction 3": "Fill corn tortillas with the mixture, roll, and place in a baking dish.",
+          "Instruction 4": "Pour enchilada sauce over the top and sprinkle with shredded cheese.",
+          "Instruction 5": "Bake until cheese is melted and bubbly."
+        },
+        "Preparation Time:": "30 minutes",
+        "Cooking Time": "25 minutes",
+        "Difficulty Level": "Intermediate",
+        "Dietary Restriction": "Vegetarian",
+        "Calories": "350 kcal",
+        "Recipe Description": "A flavorful and satisfying vegetarian enchilada recipe with sweet potatoes, black beans, and a smoky enchilada sauce."
+      },
+
+      {
+        "id": 7,
+        "Recipe Name": "Mediterranean Chickpea Stew",
+        "Ingredients": {
+          "Ingredient 1:" : "Chickpeas",
+          "Ingredient 2" : "Tomatoes",
+          "Ingredient 3" : "Red Bell Pepper",
+          "Ingredient 4" : "Onion",
+          "Ingredient 5" : "Garlic",
+          "Ingredient 6" : "Vegetable Broth",
+          "Ingredient 7" : "Olive Oil",
+          "Ingredient 8" : "Cumin",
+          "Ingredient 9" : "Paprika",
+          "Ingredient 10" : "Fresh Parsley"
+        },
+        "Instructions":{
+          "Instruction 1": "Sauté chopped onions and garlic in olive oil until translucent.",
+          "Instruction 2": "Add diced tomatoes and red bell pepper and stir in cumin and paprika. ",
+          "Instruction 3": "Pour in vegetable broth and bring to a simmer. ",
+          "Instruction 4": "Add drained chickpeas and cook until vegetables are tender.",
+          "Instruction 5": "Season with salt and pepper then garnish with fresh parsley before serving."
+        },
+        "Preparation Time:": "15 minutes",
+        "Cooking Time": "30 minutes",
+        "Difficulty Level": "Easy",
+        "Dietary Restriction": "Vegan",
+        "Calories": "300 kcal",
+        "Recipe Description": "A hearty and nutritious stew with chickpeas, tomatoes, and Mediterranean spices."
+      }, 
+
+      {
+        "id": 8,
+        "Recipe Name": "Teriyaki Salmon Bowl",
+        "Ingredients": {
+          "Ingredient 1:" : "Salmon Fillets",
+          "Ingredient 2" : "Soy Sauce",
+          "Ingredient 3" : "Mirin",
+          "Ingredient 4" : "Brown Sugar",
+          "Ingredient 5" : "Rice",
+          "Ingredient 6" : "Broccoli",
+          "Ingredient 7" : "Carrots",
+          "Ingredient 8" : "Sesame Seeds",
+          "Ingredient 9" : "Green Onions",
+          "Ingredient 10" : "Ginger"
+        },
+        "Instructions":{
+          "Instruction 1": "Marinate salmon in a mixture of soy sauce, mirin, brown sugar, and grated ginger.",
+          "Instruction 2": "Cook rice according to package instructions.",
+          "Instruction 3": "Steam broccoli and carrots until tender-crisp and grill or pan-sear salmon until cooked.",
+          "Instruction 4": "Place rice in bowls, top with vegetables, and salmon.",
+          "Instruction 5": "Drizzle with extra teriyaki sauce and garnish with sesame seeds and chopped green onions."
+        },
+        "Preparation Time:": "20 minutes",
+        "Cooking Time": "15 minutes",
+        "Difficulty Level": "Intermediate",
+        "Dietary Restriction": "None",
+        "Calories": "400 kcal",
+        "Recipe Description": "A delicious bowl with teriyaki-glazed salmon, steamed rice, and colorful vegetables."
+      },
+
+      {
+        "id": 9,
+        "Recipe Name": "Spinach and Feta Stuffed Chicken Breast",
+        "Ingredients": {
+          "Ingredient 1:" : "Chicken Breast",
+          "Ingredient 2" : "Fresh Spinach",
+          "Ingredient 3" : "Feta Cheese",
+          "Ingredient 4" : "Garlic",
+          "Ingredient 5" : "Olive Oil",
+          "Ingredient 6" : "Dried Oregano",
+          "Ingredient 7" : "Salt",
+          "Ingredient 8" : "Black Pepper",
+          "Ingredient 9" : "Lemon Zest",
+          "Ingredient 10" : "Chicken Broth"
+        },
+        "Instructions":{
+          "Instruction 1": "Preheat oven to 375°F (190°C), in a pan, sauté chopped garlic in olive oil.",
+          "Instruction 2": "Add fresh spinach and cook until wilted and combine spinach with crumbled feta, oregano, salt, black pepper, and lemon zest.",
+          "Instruction 3": "Cut a pocket into each chicken breast and stuff with the spinach mixture then season the outside of the chicken with salt and pepper.",
+          "Instruction 4": "Sear the chicken in a pan until golden brown.",
+          "Instruction 5": "Transfer chicken to a baking dish and pour chicken broth, bake until the chicken is cooked through."
+        },
+        "Preparation Time:": "20 minutes",
+        "Cooking Time": "25 minutes",
+        "Difficulty Level": "Intermediate",
+        "Dietary Restriction": "Low-carb",
+        "Calories": "350 kcal",
+        "Recipe Description": "Juicy chicken breasts stuffed with a flavorful mixture of spinach, feta cheese, and herbs."
+      },
+
+      {
+        "id": 10,
+        "Recipe Name": "Black Bean and Quinoa Stuffed Peppers",
+        "Ingredients": {
+          "Ingredient 1:" : "Bell peppers (assorted colors)",
+          "Ingredient 2" : "Cooked Quinoa",
+          "Ingredient 3" : "Black Beans",
+          "Ingredient 4" : "Corn Kernels",
+          "Ingredient 5" : "Red Onion",
+          "Ingredient 6" : "Cumin",
+          "Ingredient 7" : "Chili Powder",
+          "Ingredient 8" : "Garlic Powder",
+          "Ingredient 9" : "Tomato Sauce",
+          "Ingredient 10" : "Shredded Cheese"
+        },
+        "Instructions":{
+          "Instruction 1": "Preheat oven to 375°F (190°C), cut the tops off bell peppers and remove seeds. ",
+          "Instruction 2": "In a bowl, mix cooked quinoa, black beans, corn, diced red onion, cumin, chili powder, and garlic powder.",
+          "Instruction 3": "Fill each pepper with the quinoa mixture and pour tomato sauce over the stuffed peppers.",
+          "Instruction 4": "Sprinkle shredded cheese on top.",
+          "Instruction 5": "Bake until the peppers are tender and the cheese is melted and bubbly."
+        },
+        "Preparation Time:": "25 minutes",
+        "Cooking Time": "30 minutes",
+        "Difficulty Level": "Easy",
+        "Dietary Restriction": "Vegetarian",
+        "Calories": "300 kcal",
+        "Recipe Description": "Colorful bell peppers filled with a nutritious blend of black beans, quinoa, vegetables, and spices."
+      }
+      
+  ]

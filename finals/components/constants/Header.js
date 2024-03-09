@@ -28,14 +28,21 @@ export default function Header () {
                     </div>
                 )
             })}
-        <nav>
+        <nav>        
             <ul className="navlinks">
-                <Link className="link" href="/index">HOME</Link>
-                <Link className="link" href="#section3">RECIPE</Link>
+                <Link className="link" href="/home">HOME</Link>
+                <Link className="link" href="/home#section3">RECIPE</Link>
                 <Link className="link" href="/aboutus">ABOUT US</Link>
                 <Link className="link" href="/contactus">CONTACT US</Link>
             </ul>
         </nav>
+        <form>
+            <div class="search">
+                <input class="search-input" type="search" placeholder="Search Recipes..."></input>
+                
+            </div>
+        </form>
+
         </div>
 
         

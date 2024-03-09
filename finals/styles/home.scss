@@ -10,6 +10,10 @@
     padding: 0;
     background-color: #DFDFDF;
 
+    .search-home{
+        display: none;
+    }
+
     .hometitle{
         font-family: "Galada", sans-serif;
         text-align: center;
@@ -23,7 +27,6 @@
         display: flex;
         justify-content: space-evenly;
         text-align: center;
-        
     }
 
     .recipe img {
@@ -176,7 +179,84 @@
         opacity: .5;
         cursor: pointer;
     }
+}
 
+@media (max-width: 320px) {
+    .search-home{
+        display: block;
+        width: 200px;
+        margin-top: 20px;
+        margin-left: 35px;
+    }
+
+    .hometitle{
+        font-size: 40px;
+    }
+
+    .recipes1{
+        flex-direction: column;
+    }
+
+    .recipe img {
+        width: 200px;
+        height: 150px;
+    }
+
+    .recipe h4{
+        font-size: 15px;
+    }
+
+    .recipe p{
+        font-size: 13px;
+        margin-bottom: 20px;        
+    }
+
+    .heart {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .heart img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .text-c2{
+        font-size: 30px;
+        padding: 10px;
+    }
+
+    .spoon img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .latestrecipes {
+        font-size: 40px;
+    }
+
+    .category {
+        flex-direction: column;
+    }
+
+    .category img {
+        width:  200px;
+        height: 250px;
+        
+    }
+
+    .category h1{
+        font-family: "Gelasio", sans-serif;
+        font-style: italic;
+        font-weight: 100;
+        text-align: center;
+        font-size: 30px;
+        
+    }
+
+    .category p {
+        display: none;
+    }
 }
 
 

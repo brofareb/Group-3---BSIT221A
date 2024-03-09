@@ -1,4 +1,9 @@
 import Head from "next/head";
+import Image from "next/image";
+import logo from '../public/logo1.png'
+import logo1 from '../public/origlogo.png'
+import Header from "@/components/constants/Header";
+
 
 export default function AboutUs () {
     return (
@@ -14,27 +19,58 @@ export default function AboutUs () {
 
         
         <div className="description">
-            <h1 className="hometitle">About Us</h1>
+            <h1 className="abouttitle">About Us</h1>
 
             <div className="descriptionp">
                 <p>Welcome to The Recipe Room - Where Culinary Creations Come to Life!</p>
             </div>
-            
 
+            <br />
+
+            <div className="mobile">
+            <div className="showOnMobile">
+                <Image 
+                    src={logo}
+                    alt="The Recipe Room Logo"
+                    width=''
+                    height=''
+                />
+            </div>
+            </div>
+
+            <div className="descriptionp1">
+                <p>At The Recipe Room, we believe in the power of good food to bring people together. Our passion for cooking and sharing delightful recipes inspired us to create this culinary haven.</p>
+            </div>
+            <br />
+            <br />
+
+            <div className="descriptionp1">
+                <p>Whether you're a seasoned chef or a kitchen novice, our platform is designed to cater to your culinary needs and aspirations.</p>
+
+            </div>
         </div>
 
+        <div className="about-footer">
+            <div className="logofooter">
+                <Image 
+                    src={logo1}
+                    alt="The Recipe Room Logo"
+                    width='200'
+                    height='80'
+                />
+            </div>
 
-
-
-
-
-
-
-
-
-
-
-
+        </div>
         </>
     );
+}
+
+
+AboutUs.getLayout = function PageLayout(page) {
+    return (
+        <>
+        <Header />
+            {page}
+        </>
+    )
 }

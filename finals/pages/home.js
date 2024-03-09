@@ -32,11 +32,12 @@ export default function Home() {
       </Head>
       <section className="section1">
 
-      <div className="container">
+      <div className="container"> 
       <form>
-            <div class="search">
+        <div className="mobile">
+            <div class="search-home">
                 <input class="search-input" type="search" placeholder="Search Recipes..."></input>
-                
+            </div>
             </div>
         </form>
         <h1 className="hometitle">Top 10 Recipes</h1>
