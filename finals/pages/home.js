@@ -13,9 +13,8 @@ import breakfast from '../public/breakfast.jpg'
 import lunch from '../public/lunch.jpg'
 import salad from '../public/salad.jpg'
 import dinner from '../public/dinner.jpg'
-import styles from "@/styles/Home.module.css";
-import Header from "@/components/constants/Header";
-import { Icon } from 'semantic-ui-react'
+
+
 
 const inter = Inter({ subsets: ["latin"] });
 

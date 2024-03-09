@@ -1,7 +1,9 @@
 [
     {
       "id": 1,
-      "Recipe Name": "Grilled Lemon Herb Chicken",
+      "Recipe_Name": "Grilled Lemon Herb Chicken",
+      "image1": "/public/grilledlemon.jpg",
+      "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
       "Ingredients": {
         "Ingredient 1:" : "Chicken Breast",
         "Ingredient 2" : "Lemon",
@@ -31,7 +33,9 @@
 
     {
         "id": 2,
-        "Recipe Name": "Quinoa and Black Bean Salad",
+        "Recipe_Name": "Quinoa and Black Bean Salad",
+        "image1": "/public/grilledlemon.jpg",
+        "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
         "Ingredients": {
           "Ingredient 1:" : "Quinoa",
           "Ingredient 2" : "Black Beans",
@@ -61,7 +65,9 @@
 
       {
         "id": 3,
-        "Recipe Name": "Shrimp and Avocado Salad",
+        "Recipe_Name": "Shrimp and Avocado Salad",
+        "image1": "/public/grilledlemon.jpg",
+        "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
         "Ingredients": {
           "Ingredient 1:" : "Shrimp",
           "Ingredient 2" : "Avocado",
@@ -91,7 +97,9 @@
 
       {
         "id": 4,
-        "Recipe Name": "Teriyaki Tofu Stir-Fry",
+        "Recipe_Name": "Teriyaki Tofu Stir-Fry",
+        "image1": "/public/grilledlemon.jpg",
+        "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
         "Ingredients": {
           "Ingredient 1:" : "Firm Tofu",
           "Ingredient 2" : "Broccoli",
@@ -121,7 +129,9 @@
 
       {
         "id": 5,
-        "Recipe Name": "Salmon and Asparagus Foil Packets",
+        "Recipe_Name": "Salmon and Asparagus Foil Packets",
+        "image1": "/public/grilledlemon.jpg",
+        "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
         "Ingredients": {
           "Ingredient 1:" : "Salmon Fillets",
           "Ingredient 2" : "Asparagus Spears",
@@ -151,7 +161,9 @@
 
       {
         "id": 6,
-        "Recipe Name": "Sweet Potato and Black Bean Enchiladas",
+        "Recipe_Name": "Sweet Potato and Black Bean Enchiladas",
+        "image1": "/public/grilledlemon.jpg",
+        "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
         "Ingredients": {
           "Ingredient 1:" : "Sweet Potatoes",
           "Ingredient 2" : "Black Beans",
@@ -181,7 +193,9 @@
 
       {
         "id": 7,
-        "Recipe Name": "Mediterranean Chickpea Stew",
+        "Recipe_Name": "Mediterranean Chickpea Stew",
+        "image1": "/public/grilledlemon.jpg",
+        "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
         "Ingredients": {
           "Ingredient 1:" : "Chickpeas",
           "Ingredient 2" : "Tomatoes",
@@ -211,7 +225,9 @@
 
       {
         "id": 8,
-        "Recipe Name": "Teriyaki Salmon Bowl",
+        "Recipe_Name": "Teriyaki Salmon Bowl",
+        "image1": "/public/grilledlemon.jpg",
+        "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
         "Ingredients": {
           "Ingredient 1:" : "Salmon Fillets",
           "Ingredient 2" : "Soy Sauce",
@@ -241,7 +257,9 @@
 
       {
         "id": 9,
-        "Recipe Name": "Spinach and Feta Stuffed Chicken Breast",
+        "Recipe_Name": "Spinach and Feta Stuffed Chicken Breast",
+        "image1": "/public/grilledlemon.jpg",
+        "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
         "Ingredients": {
           "Ingredient 1:" : "Chicken Breast",
           "Ingredient 2" : "Fresh Spinach",
@@ -271,7 +289,9 @@
 
       {
         "id": 10,
-        "Recipe Name": "Black Bean and Quinoa Stuffed Peppers",
+        "Recipe_Name": "Black Bean and Quinoa Stuffed Peppers",
+        "image1": "/public/grilledlemon.jpg",
+        "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
         "Ingredients": {
           "Ingredient 1:" : "Bell peppers (assorted colors)",
           "Ingredient 2" : "Cooked Quinoa",
@@ -291,12 +311,12 @@
           "Instruction 4": "Sprinkle shredded cheese on top.",
           "Instruction 5": "Bake until the peppers are tender and the cheese is melted and bubbly."
         },
-        "Preparation Time:": "25 minutes",
-        "Cooking Time": "30 minutes",
-        "Difficulty Level": "Easy",
-        "Dietary Restriction": "Vegetarian",
+        "PreparationTime:": "25 minutes",
+        "CookingTime": "30 minutes",
+        "DifficultyLevel": "Easy",
+        "DietaryRestriction": "Vegetarian",
         "Calories": "300 kcal",
-        "Recipe Description": "Colorful bell peppers filled with a nutritious blend of black beans, quinoa, vegetables, and spices."
+        "RecipeDescription": "Colorful bell peppers filled with a nutritious blend of black beans, quinoa, vegetables, and spices."
       }
       
   ]

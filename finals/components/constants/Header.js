@@ -1,18 +1,11 @@
 import Image from "next/image"
 import Link from "next/link";
-import { Icon } from 'semantic-ui-react'
 import { useState } from 'react';
 
 
-export default function Header () {
-    const [menuVisible, setMenuVisible] = useState(false);
 
-    const show = () => {
-        setMenuVisible(prevState => !prevState);
-    };
-    const hide = () => {
-        setMenuVisible(false);
-    };
+export default function Header ({recipes}) {
+    
     return (
         <>
         <div className="header">
@@ -61,4 +54,18 @@ export default function Header () {
         
         </>
     );
+}
+
+export async function getStaticProps() {
+    const filePath = path.join(process.cwd(), 'recipe.json')
+    const fileContent = fs.readFileSync(filePath, 'utf8')
+    const data = JSON.parse(fileContent)
+
+    
+
+    return {
+        props: {
+            recipes: data
+        }
+    }
 }
