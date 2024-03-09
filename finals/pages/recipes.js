@@ -14,22 +14,21 @@ export default function Recipe ({ recipe }) {
         <link rel="icon" href="/logo1.png" />
      
       </Head>
-        <section className="recipesection">
+
+            <section className="recipesection">
             {recipe.map((recipes) => {
                 return (
-
                     
                     <a className="recipeboxes" key={recipes.id}>
-                        <div className="recipe-pics">
                     <Image 
                         src = {`/recipics/${recipes.image1}`} 
                         alt=""
-                        width='100'
+                        width='200'
                         height='100'
                     />
-                    </div>
-                    <h1 className="recipetitles">{recipes.Recipe_Name}</h1>
+                    <h5 className="recipetitles">{recipes.Recipe_Name}</h5>
                     </a>
+
                    
                 );
             })}

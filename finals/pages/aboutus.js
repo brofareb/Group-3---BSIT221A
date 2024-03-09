@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
-import logo from '../public/logo1.png'
-import logo1 from '../public/origlogo.png'
+import logo from '../public/assets/logo1.png'
+import logo1 from '../public/assets/origlogo.png'
 import Header from "@/components/constants/Header";
 
 

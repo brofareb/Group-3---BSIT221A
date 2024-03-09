@@ -1,18 +1,18 @@
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
-import grilledlemon from '../public/grilledlemon.jpg';
-import quinoa from '../public/quinoa.png';
-import shrimp from '../public/shrimp.jpg';
-import teriyakitofu from '../public/teriyakitofu.jpg'
-import salmon from '../public/salmon.jpg'
-import HEART from '../public/HEART.png'
-import logo1 from '../public/logo1.png'
-import spoon from '../public/spoonandfork.png'
-import breakfast from '../public/breakfast.jpg'
-import lunch from '../public/lunch.jpg'
-import salad from '../public/salad.jpg'
-import dinner from '../public/dinner.jpg'
+import grilledlemon from '../public/recipics/grilledlemon.jpg';
+import quinoa from '../public/recipics/quinoa.png';
+import shrimp from '../public/recipics/shrimp.jpg';
+import teriyakitofu from '../public/recipics/teriyakitofu.jpg'
+import salmon from '../public/recipics/salmon.jpg'
+import HEART from '../public/assets/HEART.png'
+import logo1 from '../public/assets/logo1.png'
+import spoon from '../public/assets/spoonandfork.png'
+import breakfast from '../public/assets/breakfast.jpg'
+import lunch from '../public/assets/lunch.jpg'
+import salad from '../public/assets/salad.jpg'
+import dinner from '../public/assets/dinner.jpg'
 
 
 
