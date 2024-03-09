@@ -13,7 +13,7 @@ import breakfast from '../public/breakfast.jpg'
 import lunch from '../public/lunch.jpg'
 import salad from '../public/salad.jpg'
 import dinner from '../public/dinner.jpg'
-import styles from "@/styles/Home.module.css";
+
 import Header from "@/components/constants/Header";
 import { Icon } from 'semantic-ui-react'
 
@@ -34,7 +34,7 @@ export default function Home() {
 
       <div className="container">
       <form>
-            <div class="search">
+            <div class="search-home">
                 <input class="search-input" type="search" placeholder="Search Recipes..."></input>
                 
             </div>
