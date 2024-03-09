@@ -2,7 +2,7 @@
     {
       "id": 1,
       "Recipe_Name": "Grilled Lemon Herb Chicken",
-      "image1": "/public/grilledlemon.jpg",
+      "image1": "/public/recipics/grilledlemon.jpg",
       "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
       "Ingredients": {
         "Ingredient 1:" : "Chicken Breast",

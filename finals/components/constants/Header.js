@@ -22,7 +22,7 @@ export default function Header ({recipes}) {
         <nav>        
             <ul className="navlinks">
                 <Link className="link" href="/home">HOME</Link>
-                <Link className="link" href="/home#section3">RECIPE</Link>
+                <Link className="link" href="/recipes">RECIPE</Link>
                 <Link className="link" href="/aboutus">ABOUT US</Link>
                 <Link className="link" href="/contactus">CONTACT US</Link>
             </ul>

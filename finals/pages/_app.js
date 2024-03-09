@@ -3,6 +3,7 @@ import "/styles/header.scss"
 import "/styles/home.scss"
 import "/styles/about.scss"
 import "/styles/contacts.scss"
+import "/styles/recipes.scss"
 
 
 import Header from "/components/constants/Header"

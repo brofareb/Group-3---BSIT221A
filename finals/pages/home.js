@@ -18,7 +18,7 @@ import dinner from '../public/dinner.jpg'
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+export default function HomePage() {
   return (
     <>
       <Head>

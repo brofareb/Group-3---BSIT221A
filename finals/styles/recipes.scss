@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #DFDFDF;
+
+    .recipeboxes img {
+        width:300px;
+        height: 300px;
+        display: flex;
+        flex-direction: row;
+    }
+}
