@@ -265,4 +265,154 @@
     }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
 
+    .hometitle{
+        font-family: "Galada", sans-serif;
+        text-align: center;
+        margin-top: 10px;
+        font-size: 50px;
+        color: #58697A;
+        font-weight: 300;
+    }
+
+    .recipe img {
+        width: 114px;
+        height: 80px;
+        border: 2px solid black;
+        box-shadow: 10px 10px rgb(185, 182, 182);
+        
+    }
+
+    .recipes1{
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        gap: 15px;
+        margin-left: 20px;
+        margin-right: 13px;
+    }
+
+    .recipe p{
+        font-family: "Inter", sans-serif;
+        font-size: 10px;
+        text-align: center;
+        color: black;
+        font-weight: 300; 
+    }
+
+    .recipe p{
+        font-family: "Inter", sans-serif;
+        font-size: 9px;
+        text-align: center;
+        color: black;
+        font-weight: 300; 
+    }
+
+    .recipe h4{
+        font-family: "Gelasio", sans-serif;
+        font-style: italic;
+        font-weight: 100;
+        color: #58697A;
+        margin-top: 10px;
+        text-align: center;
+        font-size: 14px;
+        
+    }
+
+    .button {
+        display: block;
+        margin: auto;
+        height: 38px;
+        padding: 12px 20px;
+        border: 0;
+        border-radius: 4px;
+        background-color: #58697A;
+        color: white;
+        transition: .3s linear;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        width: 100px;
+        align-items: center;
+        text-align: center;
+        font-size: 11px;
+    }
+
+    .text-c2{
+        font-family: "Gelasio", sans-serif;
+        font-size: 25px;
+        font-style: italic;
+        text-align: center;
+        color: #58697A;
+        padding: 5px;
+    }
+
+    .logo1 img{
+        width: 115px;
+        height: auto;
+    }
+
+    .spoon {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .spoon img{
+        width: 40px;
+        height: auto;
+    }
+
+    .latestrecipes {
+        font-family: "Galada", sans-serif;
+        font-size: 50px;
+        text-align: center;
+        font-weight: 400;
+        color: #58697A;
+    }
+
+    .category img {
+        width: 265px;
+        height: 257px;
+        margin: 15px 40px;
+        border: 2px solid black;
+        box-shadow: 10px 10px rgb(185, 182, 182);
+        
+    }
+
+    .category h1{
+        font-family: "Gelasio", sans-serif;
+        font-style: italic;
+        font-weight: 100;
+        margin-top: 25px;
+        text-align: center;
+        font-size: 55px;
+        
+    }
+
+    .category p {
+        font-family: "Inter", sans-serif;
+        font-size: 15px;
+        text-align: center;
+        align-items: center;
+        padding: 45px;
+        font-style: italic;
+        color: #58697A;
+
+    }
+
+    .viewmore-section3 {
+        display: block;
+        margin: auto;
+        height: 40px;
+        padding: 0 20px;
+        border: 0;
+        border-radius: 4px;
+        background-color: #58697A;
+        color: white;
+        transition: .3s linear;
+        margin-top: -12px;
+        margin-bottom: 35px;
+        font-size: 12px;
+    }
+
+}
