@@ -46,11 +46,64 @@
                 font-weight: bold;
             }  
         }
+        .container{
+            display: none;
+        }
     }
 
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+@media only screen and (min-width: 768px) and (max-width: 1024px){
 
+    .contact-title {
+        font-size: 2vh;
+        text-align: center;
+        margin-top: 20px;
+        color: #58697A;
+    }
+
+    .body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        color: #58697A;
+
+        .contact, .inquiry{        
+            text-align: justify;
+            font-style: italic;
+            font-size: 1.90vh;
+            width: 78%;
+        }
+
+        .list{
+            margin-top: 20px;
+            margin-left: 50px;
+
+            .contact-list li, .info-email li{
+                font-size: 1.90vh;
+                font-weight: bold;
+            }  
+        }
+
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 5%;
+            margin-bottom: -5%;
+
+            .container img{
+                margin-top: 5%;
+                max-width: 100%;
+                }
+        }
+    }
+}
+
+@media only screen and (max-width: 320px){
     .contact-title {
         font-size: 2vh;
         text-align: center;
@@ -84,5 +137,9 @@
                 font-weight: bold;
             }  
         }
-    }
+
+        .container{
+            display: block;
+        }
+    }   
 }

@@ -1,8 +1,9 @@
 import Head from "next/head"
+import Image from "next/image";
+import conus from '../public/assets/conus.png'
 export default function ContactUS(){
     return(
         <>
-
         <Head>
             <title>The Recipe Room</title>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -33,14 +34,21 @@ export default function ContactUS(){
                         General Inquiries:<br/> 
                         For general inquiries or feedback, drop us a line!
                     </p>
-                    <div className="list">
+                    <div className = "list">
                         <ul className = "info-email">
                             <li>Email: info@reciperoom.com</li>
                         </ul>
+                    </div>
+                    <div className = "container">
+                        <Image
+                            src = {conus} 
+                            alt = "Contact Us"
+                            width = '200'
+                            height = '200'
+                        />
                     </div>    
                 </div>
             </div>
-            
         </>
     )
 }

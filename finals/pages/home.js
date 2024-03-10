@@ -58,6 +58,7 @@ export default function Home({recipe}) {
             })}
         </section>
 
+
         <div className="button">
           <Link className="viewmore" href="/recipes">View More</Link>
         </div>
