@@ -266,7 +266,7 @@
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
 
     .hometitle{
         font-family: "Galada", sans-serif;
@@ -321,17 +321,24 @@
         
     }
 
+    .recipetitles{
+        font-size: 12px;
+        font-family: "Gelasio", sans-serif;
+        font-style: italic;
+        font-weight: 100;
+        margin-bottom: 20px;
+    }
+
     .button {
         display: block;
         margin: auto;
         height: 38px;
-        padding: 12px 20px;
         border: 0;
         border-radius: 4px;
         background-color: #58697A;
         color: white;
         transition: .3s linear;
-        margin-top: 30px;
+        margin-top: 10px;
         margin-bottom: 30px;
         width: 100px;
         align-items: center;
@@ -350,7 +357,6 @@
 
     .logo1 img{
         width: 115px;
-        height: auto;
     }
 
     .spoon {
@@ -359,8 +365,8 @@
     }
 
     .spoon img{
-        width: 40px;
-        height: auto;
+        width: 65px;
+
     }
 
     .latestrecipes {
