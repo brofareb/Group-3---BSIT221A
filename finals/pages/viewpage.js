@@ -2,6 +2,7 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import Data from "/pages/recipe.json";
 import Image from "next/image";
+import Head from "next/head";
 
 
 
@@ -23,6 +24,11 @@ export default function ViewPage({recipes}) {
 
   return (
     <>
+
+    <Head>
+    <title>The Recipe Room</title>
+    <link rel="icon" href="assets/logo1.png" />
+    </Head>
       <section className="viewpage">
           <div className="title">
             <h1 className="recipetitle">{selectedRecipe.Recipe_Name}</h1>
@@ -94,7 +100,7 @@ export default function ViewPage({recipes}) {
             )}
             </ol>
           </div>
-          
+
           <div className="reciped">
               <h1 className="recipedesc">Recipe Description:</h1>
               <p className="recipedescription">{selectedRecipe.RecipeDescription}</p>
