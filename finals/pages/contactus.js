@@ -21,7 +21,7 @@ export default function ContactUS(){
                 </div>
                 <div className = "inquiry">
                     <p>
-                        General Inquiries:
+                        General Inquiries:<br/> 
                         For general inquiries or feedback, drop us a line!
                     </p>
                     <div className="list">
