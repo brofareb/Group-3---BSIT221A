@@ -6,30 +6,30 @@
       "image2": "Grilled-lemon-Herb-Chicken-17.jpg",
       "Category": "Lunch",
       "Ingredients": {
-        "Ingredient 1:" : "Chicken Breast",
-        "Ingredient 2" : "Lemon",
-        "Ingredient 3" : "Olive Oil",
-        "Ingredient 4" : "Garlic",
-        "Ingredient 5" : "Fresh Rosemary",
-        "Ingredient 6" : "Fresh Thyme",
-        "Ingredient 7" : "Salt",
-        "Ingredient 8" : "Black Pepper",
-        "Ingredient 9" : "Dijon Mustard",
-        "Ingredient 10" : "Honey"
+        "Ingredient1:" : "Chicken Breast",
+        "Ingredient2" : "Lemon",
+        "Ingredient3" : "Olive Oil",
+        "Ingredient4" : "Garlic",
+        "Ingredient5" : "Fresh Rosemary",
+        "Ingredient6" : "Fresh Thyme",
+        "Ingredient7" : "Salt",
+        "Ingredient8" : "Black Pepper",
+        "Ingredient9" : "Dijon Mustard",
+        "Ingredient10" : "Honey"
       },
       "Instructions":{
-        "Instruction 1": "In a bowl, mix lemon juice, olive oil, minced garlic, chopped rosemary, thyme, salt, black pepper, Dijon mustard, and honey to create a marinade.",
-        "Instruction 2": "Coat chicken with the marinade and let it sit for at least 30 minutes.",
-        "Instruction 3": "Preheat the grill.",
-        "Instruction 4": "Grill chicken until fully cooked, basting with marinade.",
-        "Instruction 5": "Let it rest for a few minutes before serving."
+        "Instruction1": "In a bowl, mix lemon juice, olive oil, minced garlic, chopped rosemary, thyme, salt, black pepper, Dijon mustard, and honey to create a marinade.",
+        "Instruction2": "Coat chicken with the marinade and let it sit for at least 30 minutes.",
+        "Instruction3": "Preheat the grill.",
+        "Instruction4": "Grill chicken until fully cooked, basting with marinade.",
+        "Instruction5": "Let it rest for a few minutes before serving."
       },
-      "Preparation Time:": "15 minutes",
-      "Cooking Time": "20 minutes",
-      "Difficulty Level": "Intermediate",
-      "Dietary Restriction": "None",
+      "PreparationTime:": "15 minutes",
+      "CookingTime": "20 minutes",
+      "DifficultyLevel": "Intermediate",
+      "DietaryRestriction": "None",
       "Calories": "300 kcal",
-      "Recipe Description": "A flavorful and healthy grilled chicken marinated in a zesty lemon and herb mixture."
+      "RecipeDescription": "A flavorful and healthy grilled chicken marinated in a zesty lemon and herb mixture."
     },
 
     {
@@ -39,30 +39,30 @@
         "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
         "Category": "Salad",
         "Ingredients": {
-          "Ingredient 1:" : "Quinoa",
-          "Ingredient 2" : "Black Beans",
-          "Ingredient 3" : "Cherry Tomatoes",
-          "Ingredient 4" : "Corn Kernels",
-          "Ingredient 5" : "Red Bell Pepper",
-          "Ingredient 6" : "Cilantro",
-          "Ingredient 7" : "Lime Juice",
-          "Ingredient 8" : "Olive Oil",
-          "Ingredient 9" : "Cumin",
-          "Ingredient 10" : "Salt"
+          "Ingredient1:" : "Quinoa",
+          "Ingredient2" : "Black Beans",
+          "Ingredient3" : "Cherry Tomatoes",
+          "Ingredient4" : "Corn Kernels",
+          "Ingredient5" : "Red Bell Pepper",
+          "Ingredient6" : "Cilantro",
+          "Ingredient7" : "Lime Juice",
+          "Ingredient8" : "Olive Oil",
+          "Ingredient9" : "Cumin",
+          "Ingredient10" : "Salt"
         },
         "Instructions":{
-          "Instruction 1": "Cook quinoa according to package instructions.",
-          "Instruction 2": "In a bowl, combine quinoa, black beans, chopped tomatoes, corn, diced bell pepper, and chopped cilantro. ",
-          "Instruction 3": "In a separate bowl, whisk together lime juice, olive oil, ground cumin, and salt.",
-          "Instruction 4": "Pour the dressing over the quinoa mixture and toss until well combined.",
-          "Instruction 5": "Chill in the refrigerator before serving."
+          "Instruction1": "Cook quinoa according to package instructions.",
+          "Instruction2": "In a bowl, combine quinoa, black beans, chopped tomatoes, corn, diced bell pepper, and chopped cilantro. ",
+          "Instruction3": "In a separate bowl, whisk together lime juice, olive oil, ground cumin, and salt.",
+          "Instruction4": "Pour the dressing over the quinoa mixture and toss until well combined.",
+          "Instruction5": "Chill in the refrigerator before serving."
         },
-        "Preparation Time:": "15 minutes",
-        "Cooking Time": "20 minutes",
-        "Difficulty Level": "Easy",
-        "Dietary Restriction": "Vegetarian",
+        "PreparationTime:": "15 minutes",
+        "CookingTime": "20 minutes",
+        "DifficultyLevel": "Easy",
+        "DietaryRestriction": "Vegetarian",
         "Calories": "250 kcal",
-        "Recipe Description": "A refreshing and protein-packed salad with quinoa, black beans, and colorful vegetables."
+        "RecipeDescription": "A refreshing and protein-packed salad with quinoa, black beans, and colorful vegetables."
       },
 
       {
@@ -72,30 +72,30 @@
         "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
         "Category": "Salad",
         "Ingredients": {
-          "Ingredient 1:" : "Shrimp",
-          "Ingredient 2" : "Avocado",
-          "Ingredient 3" : "Mixed Greens",
-          "Ingredient 4" : "Cherry Tomatoes",
-          "Ingredient 5" : "Red Onion",
-          "Ingredient 6" : "Olive Oil",
-          "Ingredient 7" : "Lime Juice",
-          "Ingredient 8" : "Cilantro",
-          "Ingredient 9" : "Black Pepper",
-          "Ingredient 10" : "Salt"
+          "Ingredient1:" : "Shrimp",
+          "Ingredient2" : "Avocado",
+          "Ingredient3" : "Mixed Greens",
+          "Ingredient4" : "Cherry Tomatoes",
+          "Ingredient5" : "Red Onion",
+          "Ingredient6" : "Olive Oil",
+          "Ingredient7" : "Lime Juice",
+          "Ingredient8" : "Cilantro",
+          "Ingredient9" : "Black Pepper",
+          "Ingredient10" : "Salt"
         },
         "Instructions":{
-          "Instruction 1": "Season shrimp with salt and pepper, then grill until cooked.",
-          "Instruction 2": "In a large bowl, combine mixed greens, sliced avocado, halved cherry tomatoes, and thinly sliced red onion.",
-          "Instruction 3": "Whisk together olive oil, lime juice, chopped cilantro, salt, and pepper to create the dressing.",
-          "Instruction 4": "Toss the salad with the dressing and top with grilled shrimp.",
-          "Instruction 5": ""
+          "Instruction1": "Season shrimp with salt and pepper, then grill until cooked.",
+          "Instruction2": "In a large bowl, combine mixed greens, sliced avocado, halved cherry tomatoes, and thinly sliced red onion.",
+          "Instruction3": "Whisk together olive oil, lime juice, chopped cilantro, salt, and pepper to create the dressing.",
+          "Instruction4": "Toss the salad with the dressing and top with grilled shrimp.",
+          "Instruction5": ""
         },
-        "Preparation Time:": "15 minutes",
-        "Cooking Time": "5 minutes",
-        "Difficulty Level": "Easy",
-        "Dietary Restriction": " Gluten-free",
+        "PreparationTime:": "15 minutes",
+        "CookingTime": "5 minutes",
+        "DifficultyLevel": "Easy",
+        "DietaryRestriction": " Gluten-free",
         "Calories": "200 kcal",
-        "Recipe Description": "A light and refreshing salad with grilled shrimp, avocado, and a zesty lime dressing."
+        "RecipeDescription": "A light and refreshing salad with grilled shrimp, avocado, and a zesty lime dressing."
       },
 
       {
@@ -105,30 +105,30 @@
         "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
         "Category": "Dinner",
         "Ingredients": {
-          "Ingredient 1:" : "Firm Tofu",
-          "Ingredient 2" : "Broccoli",
-          "Ingredient 3" : "Bell Peppers",
-          "Ingredient 4" : "Carrots",
-          "Ingredient 5" : "Red Onion",
-          "Ingredient 6" : "Snow Peas",
-          "Ingredient 7" : "Rice Vinegar",
-          "Ingredient 8" : "Brown Sugar",
-          "Ingredient 9" : "Garlic",
-          "Ingredient 10" : "Sesame Oil"
+          "Ingredient1:" : "Firm Tofu",
+          "Ingredient2" : "Broccoli",
+          "Ingredient3" : "Bell Peppers",
+          "Ingredient4" : "Carrots",
+          "Ingredient5" : "Red Onion",
+          "Ingredient6" : "Snow Peas",
+          "Ingredient7" : "Rice Vinegar",
+          "Ingredient8" : "Brown Sugar",
+          "Ingredient9" : "Garlic",
+          "Ingredient10" : "Sesame Oil"
         },
         "Instructions":{
-          "Instruction 1": "Press tofu to remove excess water and cut into cubes.",
-          "Instruction 2": "Stir-fry tofu until golden brown, then set aside.",
-          "Instruction 3": "Stir-fry vegetables in sesame oil until tender-crisp.",
-          "Instruction 4": "In a bowl, mix soy sauce, rice vinegar, brown sugar, and minced garlic to make the teriyaki sauce.",
-          "Instruction 5": "Add tofu and sauce to the vegetables, toss until coated."
+          "Instruction1": "Press tofu to remove excess water and cut into cubes.",
+          "Instruction2": "Stir-fry tofu until golden brown, then set aside.",
+          "Instruction3": "Stir-fry vegetables in sesame oil until tender-crisp.",
+          "Instruction4": "In a bowl, mix soy sauce, rice vinegar, brown sugar, and minced garlic to make the teriyaki sauce.",
+          "Instruction5": "Add tofu and sauce to the vegetables, toss until coated."
         },
-        "Preparation Time:": "20 minutes",
-        "Cooking Time": "15 minutes",
-        "Difficulty Level": "Intermediate",
-        "Dietary Restriction": "Vegan",
+        "PreparationTime:": "20 minutes",
+        "CookingTime": "15 minutes",
+        "DifficultyLevel": "Intermediate",
+        "DietaryRestriction": "Vegan",
         "Calories": "250 kcal",
-        "Recipe Description": "A savory and sweet tofu stir-fry with colorful vegetables in a homemade teriyaki sauce."
+        "RecipeDescription": "A savory and sweet tofu stir-fry with colorful vegetables in a homemade teriyaki sauce."
       },
 
       {
@@ -138,30 +138,30 @@
         "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
         "Category": "Dinner",
         "Ingredients": {
-          "Ingredient 1:" : "Salmon Fillets",
-          "Ingredient 2" : "Asparagus Spears",
-          "Ingredient 3" : "Lemon",
-          "Ingredient 4" : "Fresh Dill",
-          "Ingredient 5" : "Olive Oil",
-          "Ingredient 6" : "Garlic Powder",
-          "Ingredient 7" : "Salt",
-          "Ingredient 8" : "Black Pepper",
-          "Ingredient 9" : "Cherry Tomatoes",
-          "Ingredient 10" : "White Wine (Optional)"
+          "Ingredient1:" : "Salmon Fillets",
+          "Ingredient2" : "Asparagus Spears",
+          "Ingredient3" : "Lemon",
+          "Ingredient4" : "Fresh Dill",
+          "Ingredient5" : "Olive Oil",
+          "Ingredient6" : "Garlic Powder",
+          "Ingredient7" : "Salt",
+          "Ingredient8" : "Black Pepper",
+          "Ingredient9" : "Cherry Tomatoes",
+          "Ingredient10" : "White Wine (Optional)"
         },
         "Instructions":{
-          "Instruction 1": "Preheat oven to 400°F (200°C).",
-          "Instruction 2": "Place salmon fillets on sheets of foil, surround with asparagus and cherry tomatoes.",
-          "Instruction 3": "Drizzle with olive oil and white wine (if using).",
-          "Instruction 4": "Sprinkle with minced garlic, salt, pepper, and fresh dill.",
-          "Instruction 5": "Seal foil packets and bake for 20 minutes."
+          "Instruction1": "Preheat oven to 400°F (200°C).",
+          "Instruction2": "Place salmon fillets on sheets of foil, surround with asparagus and cherry tomatoes.",
+          "Instruction3": "Drizzle with olive oil and white wine (if using).",
+          "Instruction4": "Sprinkle with minced garlic, salt, pepper, and fresh dill.",
+          "Instruction5": "Seal foil packets and bake for 20 minutes."
         },
-        "Preparation Time:": "15 minutes",
-        "Cooking Time": "20 minutes",
-        "Difficulty Level": "Intermediate",
-        "Dietary Restriction": "Low-carb",
+        "PreparationTime:": "15 minutes",
+        "CookingTime": "20 minutes",
+        "DifficultyLevel": "Intermediate",
+        "DietaryRestriction": "Low-carb",
         "Calories": "300 kcal",
-        "Recipe Description": "A simple and healthy dish where salmon and asparagus are cooked to perfection in foil packets with a lemon-dill seasoning."
+        "RecipeDescription": "A simple and healthy dish where salmon and asparagus are cooked to perfection in foil packets with a lemon-dill seasoning."
       },
 
       {
@@ -171,30 +171,30 @@
         "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
         "Category": "Breakfast",
         "Ingredients": {
-          "Ingredient 1:" : "Sweet Potatoes",
-          "Ingredient 2" : "Black Beans",
-          "Ingredient 3" : "Red Onion",
-          "Ingredient 4" : "Enchilada Sauce",
-          "Ingredient 5" : "Corn Tortillas",
-          "Ingredient 6" : "Cumin",
-          "Ingredient 7" : "Paprika",
-          "Ingredient 8" : "Garlic Powder",
-          "Ingredient 9" : "Cilantro",
-          "Ingredient 10" : "Shredded Cheese"
+          "Ingredient1:" : "Sweet Potatoes",
+          "Ingredient2" : "Black Beans",
+          "Ingredient3" : "Red Onion",
+          "Ingredient4" : "Enchilada Sauce",
+          "Ingredient5" : "Corn Tortillas",
+          "Ingredient6" : "Cumin",
+          "Ingredient7" : "Paprika",
+          "Ingredient8" : "Garlic Powder",
+          "Ingredient9" : "Cilantro",
+          "Ingredient10" : "Shredded Cheese"
         },
         "Instructions":{
-          "Instruction 1": "Cook diced sweet potatoes until tender.",
-          "Instruction 2": "In a bowl, mix sweet potatoes, black beans, diced red onion, cumin, paprika, and garlic powder.",
-          "Instruction 3": "Fill corn tortillas with the mixture, roll, and place in a baking dish.",
-          "Instruction 4": "Pour enchilada sauce over the top and sprinkle with shredded cheese.",
-          "Instruction 5": "Bake until cheese is melted and bubbly."
+          "Instruction1": "Cook diced sweet potatoes until tender.",
+          "Instruction2": "In a bowl, mix sweet potatoes, black beans, diced red onion, cumin, paprika, and garlic powder.",
+          "Instruction3": "Fill corn tortillas with the mixture, roll, and place in a baking dish.",
+          "Instruction4": "Pour enchilada sauce over the top and sprinkle with shredded cheese.",
+          "Instruction5": "Bake until cheese is melted and bubbly."
         },
-        "Preparation Time:": "30 minutes",
-        "Cooking Time": "25 minutes",
-        "Difficulty Level": "Intermediate",
-        "Dietary Restriction": "Vegetarian",
+        "PreparationTime:": "30 minutes",
+        "CookingTime": "25 minutes",
+        "DifficultyLevel": "Intermediate",
+        "DietaryRestriction": "Vegetarian",
         "Calories": "350 kcal",
-        "Recipe Description": "A flavorful and satisfying vegetarian enchilada recipe with sweet potatoes, black beans, and a smoky enchilada sauce."
+        "RecipeDescription": "A flavorful and satisfying vegetarian enchilada recipe with sweet potatoes, black beans, and a smoky enchilada sauce."
       },
 
       {
@@ -204,30 +204,30 @@
         "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
         "Category": "Lunch",
         "Ingredients": {
-          "Ingredient 1:" : "Chickpeas",
-          "Ingredient 2" : "Tomatoes",
-          "Ingredient 3" : "Red Bell Pepper",
-          "Ingredient 4" : "Onion",
-          "Ingredient 5" : "Garlic",
-          "Ingredient 6" : "Vegetable Broth",
-          "Ingredient 7" : "Olive Oil",
-          "Ingredient 8" : "Cumin",
-          "Ingredient 9" : "Paprika",
-          "Ingredient 10" : "Fresh Parsley"
+          "Ingredient1:" : "Chickpeas",
+          "Ingredient2" : "Tomatoes",
+          "Ingredient3" : "Red Bell Pepper",
+          "Ingredient4" : "Onion",
+          "Ingredient5" : "Garlic",
+          "Ingredient6" : "Vegetable Broth",
+          "Ingredient7" : "Olive Oil",
+          "Ingredient8" : "Cumin",
+          "Ingredient9" : "Paprika",
+          "Ingredient10" : "Fresh Parsley"
         },
         "Instructions":{
-          "Instruction 1": "Sauté chopped onions and garlic in olive oil until translucent.",
-          "Instruction 2": "Add diced tomatoes and red bell pepper and stir in cumin and paprika. ",
-          "Instruction 3": "Pour in vegetable broth and bring to a simmer. ",
-          "Instruction 4": "Add drained chickpeas and cook until vegetables are tender.",
-          "Instruction 5": "Season with salt and pepper then garnish with fresh parsley before serving."
+          "Instruction1": "Sauté chopped onions and garlic in olive oil until translucent.",
+          "Instruction2": "Add diced tomatoes and red bell pepper and stir in cumin and paprika. ",
+          "Instruction3": "Pour in vegetable broth and bring to a simmer. ",
+          "Instruction4": "Add drained chickpeas and cook until vegetables are tender.",
+          "Instruction5": "Season with salt and pepper then garnish with fresh parsley before serving."
         },
-        "Preparation Time:": "15 minutes",
-        "Cooking Time": "30 minutes",
-        "Difficulty Level": "Easy",
-        "Dietary Restriction": "Vegan",
+        "PreparationTime:": "15 minutes",
+        "CookingTime": "30 minutes",
+        "DifficultyLevel": "Easy",
+        "DietaryRestriction": "Vegan",
         "Calories": "300 kcal",
-        "Recipe Description": "A hearty and nutritious stew with chickpeas, tomatoes, and Mediterranean spices."
+        "RecipeDescription": "A hearty and nutritious stew with chickpeas, tomatoes, and Mediterranean spices."
       }, 
 
       {
@@ -237,30 +237,30 @@
         "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
         "Category": "Lunch",
         "Ingredients": {
-          "Ingredient 1:" : "Salmon Fillets",
-          "Ingredient 2" : "Soy Sauce",
-          "Ingredient 3" : "Mirin",
-          "Ingredient 4" : "Brown Sugar",
-          "Ingredient 5" : "Rice",
-          "Ingredient 6" : "Broccoli",
-          "Ingredient 7" : "Carrots",
-          "Ingredient 8" : "Sesame Seeds",
-          "Ingredient 9" : "Green Onions",
-          "Ingredient 10" : "Ginger"
+          "Ingredient1:" : "Salmon Fillets",
+          "Ingredient2" : "Soy Sauce",
+          "Ingredient3" : "Mirin",
+          "Ingredient4" : "Brown Sugar",
+          "Ingredient5" : "Rice",
+          "Ingredient6" : "Broccoli",
+          "Ingredient7" : "Carrots",
+          "Ingredient8" : "Sesame Seeds",
+          "Ingredient9" : "Green Onions",
+          "Ingredient10" : "Ginger"
         },
         "Instructions":{
-          "Instruction 1": "Marinate salmon in a mixture of soy sauce, mirin, brown sugar, and grated ginger.",
-          "Instruction 2": "Cook rice according to package instructions.",
-          "Instruction 3": "Steam broccoli and carrots until tender-crisp and grill or pan-sear salmon until cooked.",
-          "Instruction 4": "Place rice in bowls, top with vegetables, and salmon.",
-          "Instruction 5": "Drizzle with extra teriyaki sauce and garnish with sesame seeds and chopped green onions."
+          "Instruction1": "Marinate salmon in a mixture of soy sauce, mirin, brown sugar, and grated ginger.",
+          "Instruction2": "Cook rice according to package instructions.",
+          "Instruction3": "Steam broccoli and carrots until tender-crisp and grill or pan-sear salmon until cooked.",
+          "Instruction4": "Place rice in bowls, top with vegetables, and salmon.",
+          "Instruction5": "Drizzle with extra teriyaki sauce and garnish with sesame seeds and chopped green onions."
         },
-        "Preparation Time:": "20 minutes",
-        "Cooking Time": "15 minutes",
-        "Difficulty Level": "Intermediate",
-        "Dietary Restriction": "None",
+        "PreparationTime:": "20 minutes",
+        "CookingTime": "15 minutes",
+        "DifficultyLevel": "Intermediate",
+        "DietaryRestriction": "None",
         "Calories": "400 kcal",
-        "Recipe Description": "A delicious bowl with teriyaki-glazed salmon, steamed rice, and colorful vegetables."
+        "RecipeDescription": "A delicious bowl with teriyaki-glazed salmon, steamed rice, and colorful vegetables."
       },
 
       {
@@ -270,30 +270,30 @@
         "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
         "Category": "Dinner",
         "Ingredients": {
-          "Ingredient 1:" : "Chicken Breast",
-          "Ingredient 2" : "Fresh Spinach",
-          "Ingredient 3" : "Feta Cheese",
-          "Ingredient 4" : "Garlic",
-          "Ingredient 5" : "Olive Oil",
-          "Ingredient 6" : "Dried Oregano",
-          "Ingredient 7" : "Salt",
-          "Ingredient 8" : "Black Pepper",
-          "Ingredient 9" : "Lemon Zest",
-          "Ingredient 10" : "Chicken Broth"
+          "Ingredient1:" : "Chicken Breast",
+          "Ingredient2" : "Fresh Spinach",
+          "Ingredient3" : "Feta Cheese",
+          "Ingredient4" : "Garlic",
+          "Ingredient5" : "Olive Oil",
+          "Ingredient6" : "Dried Oregano",
+          "Ingredient7" : "Salt",
+          "Ingredient8" : "Black Pepper",
+          "Ingredient9" : "Lemon Zest",
+          "Ingredient10" : "Chicken Broth"
         },
         "Instructions":{
-          "Instruction 1": "Preheat oven to 375°F (190°C), in a pan, sauté chopped garlic in olive oil.",
-          "Instruction 2": "Add fresh spinach and cook until wilted and combine spinach with crumbled feta, oregano, salt, black pepper, and lemon zest.",
-          "Instruction 3": "Cut a pocket into each chicken breast and stuff with the spinach mixture then season the outside of the chicken with salt and pepper.",
-          "Instruction 4": "Sear the chicken in a pan until golden brown.",
-          "Instruction 5": "Transfer chicken to a baking dish and pour chicken broth, bake until the chicken is cooked through."
+          "Instruction1": "Preheat oven to 375°F (190°C), in a pan, sauté chopped garlic in olive oil.",
+          "Instruction2": "Add fresh spinach and cook until wilted and combine spinach with crumbled feta, oregano, salt, black pepper, and lemon zest.",
+          "Instruction3": "Cut a pocket into each chicken breast and stuff with the spinach mixture then season the outside of the chicken with salt and pepper.",
+          "Instruction4": "Sear the chicken in a pan until golden brown.",
+          "Instruction5": "Transfer chicken to a baking dish and pour chicken broth, bake until the chicken is cooked through."
         },
-        "Preparation Time:": "20 minutes",
-        "Cooking Time": "25 minutes",
-        "Difficulty Level": "Intermediate",
-        "Dietary Restriction": "Low-carb",
+        "PreparationTime:": "20 minutes",
+        "CookingTime": "25 minutes",
+        "DifficultyLevel": "Intermediate",
+        "DietaryRestriction": "Low-carb",
         "Calories": "350 kcal",
-        "Recipe Description": "Juicy chicken breasts stuffed with a flavorful mixture of spinach, feta cheese, and herbs."
+        "RecipeDescription": "Juicy chicken breasts stuffed with a flavorful mixture of spinach, feta cheese, and herbs."
       },
 
       {
@@ -303,23 +303,23 @@
         "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
         "Category": "Breakfast",
         "Ingredients": {
-          "Ingredient 1:" : "Bell peppers (assorted colors)",
-          "Ingredient 2" : "Cooked Quinoa",
-          "Ingredient 3" : "Black Beans",
-          "Ingredient 4" : "Corn Kernels",
-          "Ingredient 5" : "Red Onion",
-          "Ingredient 6" : "Cumin",
-          "Ingredient 7" : "Chili Powder",
-          "Ingredient 8" : "Garlic Powder",
-          "Ingredient 9" : "Tomato Sauce",
-          "Ingredient 10" : "Shredded Cheese"
+          "Ingredient1:" : "Bell peppers (assorted colors)",
+          "Ingredient2" : "Cooked Quinoa",
+          "Ingredient3" : "Black Beans",
+          "Ingredient4" : "Corn Kernels",
+          "Ingredient5" : "Red Onion",
+          "Ingredient6" : "Cumin",
+          "Ingredient7" : "Chili Powder",
+          "Ingredient8" : "Garlic Powder",
+          "Ingredient9" : "Tomato Sauce",
+          "Ingredient10" : "Shredded Cheese"
         },
         "Instructions":{
-          "Instruction 1": "Preheat oven to 375°F (190°C), cut the tops off bell peppers and remove seeds. ",
-          "Instruction 2": "In a bowl, mix cooked quinoa, black beans, corn, diced red onion, cumin, chili powder, and garlic powder.",
-          "Instruction 3": "Fill each pepper with the quinoa mixture and pour tomato sauce over the stuffed peppers.",
-          "Instruction 4": "Sprinkle shredded cheese on top.",
-          "Instruction 5": "Bake until the peppers are tender and the cheese is melted and bubbly."
+          "Instruction1": "Preheat oven to 375°F (190°C), cut the tops off bell peppers and remove seeds. ",
+          "Instruction2": "In a bowl, mix cooked quinoa, black beans, corn, diced red onion, cumin, chili powder, and garlic powder.",
+          "Instruction3": "Fill each pepper with the quinoa mixture and pour tomato sauce over the stuffed peppers.",
+          "Instruction4": "Sprinkle shredded cheese on top.",
+          "Instruction5": "Bake until the peppers are tender and the cheese is melted and bubbly."
         },
         "PreparationTime:": "25 minutes",
         "CookingTime": "30 minutes",
