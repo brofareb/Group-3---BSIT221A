@@ -3,7 +3,7 @@ import fs from 'fs';
 import path from "path";
 import Head from "next/head";
 import { useState } from "react"
-import Header from "@/components/constants/Header";
+import Link from "next/link";
 
 
 
@@ -36,18 +36,17 @@ export default function Recipe ({ recipe }) {
             <section className="recipesection">
             {recipe.map((recipes) => {
                 return (
-                    
-                    <a className="recipeboxes" key={recipes.id}>
+                    <Link className="recipeboxes" 
+                    href={`/view/${recipes.id}`}
+                    key={recipes.id}>
                     <Image 
                         src = {`/recipics/${recipes.image1}`} 
                         alt=""
                         width='200'
                         height='100'
                     />
-                    <h5 className="recipetitles">{recipes.Recipe_Name}</h5>
-                    </a>
-
-                   
+                    <h5 className="recipe-titles">{recipes.Recipe_Name}</h5>
+                    </Link> 
                 );
             })}
                 

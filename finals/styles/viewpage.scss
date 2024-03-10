@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Inter:wght@100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #DFDFDF;
+
+
+   .title {
+    text-align: center;
+   }
+
+   .recipetitle {
+    font-family: "Gelasio", sans-serif;
+    font-style: italic;
+    color: #58697A;
+    font-weight: 400;
+    margin-top: 20px;
+    font-size: 40px;
+   }
+
+   .flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    align-items: center;
+   }
+
+   .details1 {
+    display: flex;
+    font-family: "Inter", sans-serif;
+    font-style: italic;
+    
+   }
+
+   .deets {
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 3px;
+   }
+
+   .img1 img {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    box-shadow: 10px 10px rgb(185, 182, 182);
+   }
+
+   .img2 img {
+    width: 600px;
+    height: 300px;
+    margin-top: 20px;
+    border: 2px solid black;
+    box-shadow: 10px 10px rgb(185, 182, 182);
+   }
+
+   .img2 {
+    text-align: center;
+   }
+
+   .ingredients-li {
+    text-align: center;
+    display: flex;
+    margin-left: 100px;
+    font-size: 30px;
+    color: black;
+   }
+
+   .ingredients, .instructions, .recipedesc {
+    margin-top: 20px;
+    font-family: "Gelasio", sans-serif;
+    font-style: italic;
+    font-size: 65px;
+    margin-left: 80px;
+    font-weight: 400;
+   }
+
+   .ingredientslist ul{
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    margin-bottom: 30px;
+   }
+
+   .ingredientslist, .instructionslist {
+    border-bottom: 3px solid #58697A;
+   }
+
+   .instructions-li {
+    color: black;
+    margin-left: 90px;
+    margin-top: 30px;
+    font-size: 30px;
+    margin-bottom: 30px;
+   }
+
+   .recipedescription {
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 300;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+   }
+
+   
+
+   
+
+   
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+}

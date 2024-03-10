@@ -37,6 +37,15 @@
         border: 1px solid black;
     }
 
+    .recipe-boxes {
+        transition: .2s ease-in-out;
+    }
+
+    .recipe-boxes:hover {
+        transform: scale(1.1);
+        z-index: 2;
+    }
+
     .recipetitles{
         font-size: 12px;
         font-family: "Gelasio", sans-serif;
@@ -132,7 +141,7 @@
         height: 350px;
         margin: 30px 80px;
         border: 2px solid black;
-        box-shadow: 10px 10px rgb(185, 182, 182);
+       
         
     }
 

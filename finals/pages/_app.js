@@ -4,6 +4,7 @@ import "/styles/home.scss"
 import "/styles/about.scss"
 import  "/styles/contacts.scss"
 import "/styles/recipes.scss"
+import "/styles/viewpage.scss"
 
 
 import Header from "/components/constants/Header"

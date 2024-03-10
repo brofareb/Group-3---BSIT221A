@@ -10,7 +10,14 @@
         margin-top: 20px;
         border-radius: 5px;
         border: 1px solid black;
+        
+    }
 
+    .recipeboxes {
+        transition: .2s ease-in-out;
+    }
+    .recipeboxes:hover {
+        transform: scale(1.1);
     }
 
     .recipesection {
@@ -21,9 +28,14 @@
         padding: 50px;
     }
 
-    .recipesection h1{
-        text-align: center;
+    .recipe-titles{
+        font-family: "Gelasio", sans-serif;
+        font-style: italic;
+        margin-top: 5px;
+        
     }
+
+    
 
 
     
