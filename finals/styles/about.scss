@@ -120,3 +120,35 @@
 
 
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+
+    .abouttitle {
+        font-family: "Inter", sans-serif;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        color: #58697A;
+    }
+
+    .descriptionp p{
+        font-weight: bold;
+        color: #58697A;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 31px;
+        font-style: italic;
+        padding: 10px;
+    }
+
+    .descriptionp1 p{
+        color: #58697A;
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 31px;
+        font-style: italic;
+    }
+}
