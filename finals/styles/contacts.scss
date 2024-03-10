@@ -8,7 +8,9 @@
     margin: 0;
     padding: 0;
     background-color: #DFDFDF;
-    font-family: "Inter", sans-serif;   
+    font-family: "Inter", sans-serif; 
+    font-weight: bold;  
+
 
     .contact-title {
         font-size: 4vh;
@@ -25,35 +27,24 @@
         align-items: flex-start;
         margin-bottom: 20px;
         color: #58697A;
-        font-size: 3vh;
 
         .contact, .inquiry{        
             text-align: start;
             font-style: italic;
-            font-weight: bold;
+            font-size: 3vh;
             margin: 5%;
             width: 40%;
-        
-            .contact-list{
-                margin-top: 3%;
-                margin-left: 5%;
-                position: relative;
-        
-                .contact-list ul li{
-                    font-size: 3vh;
-                }
-            }
-        
-            .info-email{
-                margin-top: 3%;
-                margin-left: 5%;
-                position: relative;
-
-                .info-email ul li{
-                    font-size: 3vh;
-                }
-            }
         }
 
+        .list{
+            margin-top: 15px;
+            margin-left: 30px;
+
+            .contact-list li, .info-email li{
+                font-size: 3vh;
+                font-weight: bold;
+            }  
+        }
     }
-}   
+
+}    
