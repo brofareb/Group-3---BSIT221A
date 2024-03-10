@@ -40,7 +40,7 @@ export default function Home({recipe}) {
         </div>
 
         <section className="recipe-section">
-            {recipe.slice(0,5).map((recipes) => {
+            {recipe && recipe.slice(0,5).map((recipes) => {
                 return (
 
                     <Link className="recipe-boxes" 
