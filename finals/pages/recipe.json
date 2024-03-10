@@ -4,6 +4,7 @@
       "Recipe_Name": "Grilled Lemon Herb Chicken",
       "image1": "grilledlemon.jpg",
       "image2": "Grilled-lemon-Herb-Chicken-17.jpg",
+      "Category": "Lunch",
       "Ingredients": {
         "Ingredient 1:" : "Chicken Breast",
         "Ingredient 2" : "Lemon",
@@ -36,6 +37,7 @@
         "Recipe_Name": "Quinoa and Black Bean Salad",
         "image1": "quinoa.png",
         "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
+        "Category": "Salad",
         "Ingredients": {
           "Ingredient 1:" : "Quinoa",
           "Ingredient 2" : "Black Beans",
@@ -68,6 +70,7 @@
         "Recipe_Name": "Shrimp and Avocado Salad",
         "image1": "shrimp.jpg",
         "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
+        "Category": "Salad",
         "Ingredients": {
           "Ingredient 1:" : "Shrimp",
           "Ingredient 2" : "Avocado",
@@ -100,6 +103,7 @@
         "Recipe_Name": "Teriyaki Tofu Stir-Fry",
         "image1": "teriyaki.jpg",
         "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
+        "Category": "Dinner",
         "Ingredients": {
           "Ingredient 1:" : "Firm Tofu",
           "Ingredient 2" : "Broccoli",
@@ -132,6 +136,7 @@
         "Recipe_Name": "Salmon and Asparagus Foil Packets",
         "image1": "salmon.jpg",
         "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
+        "Category": "Dinner",
         "Ingredients": {
           "Ingredient 1:" : "Salmon Fillets",
           "Ingredient 2" : "Asparagus Spears",
@@ -164,6 +169,7 @@
         "Recipe_Name": "Sweet Potato and Black Bean Enchiladas",
         "image1": "potato.jpg",
         "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
+        "Category": "Breakfast",
         "Ingredients": {
           "Ingredient 1:" : "Sweet Potatoes",
           "Ingredient 2" : "Black Beans",
@@ -196,6 +202,7 @@
         "Recipe_Name": "Mediterranean Chickpea Stew",
         "image1": "chickpeastew.jpg",
         "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
+        "Category": "Lunch",
         "Ingredients": {
           "Ingredient 1:" : "Chickpeas",
           "Ingredient 2" : "Tomatoes",
@@ -228,6 +235,7 @@
         "Recipe_Name": "Teriyaki Salmon Bowl",
         "image1": "teriyakisalmonbowl.jpg",
         "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
+        "Category": "Lunch",
         "Ingredients": {
           "Ingredient 1:" : "Salmon Fillets",
           "Ingredient 2" : "Soy Sauce",
@@ -260,6 +268,7 @@
         "Recipe_Name": "Spinach and Feta Stuffed Chicken Breast",
         "image1": "spinachandfeta.jpg",
         "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
+        "Category": "Dinner",
         "Ingredients": {
           "Ingredient 1:" : "Chicken Breast",
           "Ingredient 2" : "Fresh Spinach",
@@ -292,6 +301,7 @@
         "Recipe_Name": "Black Bean and Quinoa Stuffed Peppers",
         "image1": "blackbeanstuffed.jpg",
         "image2": "/public/Grilled-lemon-Herb-Chicken-17.jpg",
+        "Category": "Breakfast",
         "Ingredients": {
           "Ingredient 1:" : "Bell peppers (assorted colors)",
           "Ingredient 2" : "Cooked Quinoa",

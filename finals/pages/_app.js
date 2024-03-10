@@ -1,8 +1,8 @@
-import "/styles/footer.scss"
+import  "/styles/footer.scss"
 import "/styles/header.scss"
 import "/styles/home.scss"
 import "/styles/about.scss"
-import "/styles/contacts.scss"
+import  "/styles/contacts.scss"
 import "/styles/recipes.scss"
 
 

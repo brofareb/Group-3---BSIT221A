@@ -1,6 +1,7 @@
 import Image from "next/image"
 import Link from "next/link";
-import { useState } from 'react';
+
+
 
 export default function Header ({recipes}) {
     
@@ -35,7 +36,7 @@ export default function Header ({recipes}) {
                 <span class="menu">
                     <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
                     <li><a href="/home">HOME</a></li>
-                    <li><a href="/home#section3">RECIPE</a></li>
+                    <li><a href="/recipes">RECIPE</a></li>
                     <li><a href="/aboutus">ABOUT US</a></li>
                     <li><a href="/contactus">CONTACT US</a></li>    
                 </span>
