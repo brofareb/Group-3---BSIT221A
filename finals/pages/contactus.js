@@ -40,12 +40,14 @@ export default function ContactUS(){
                         </ul>
                     </div>
                     <div className = "container">
-                        <Image
-                            src = {conus} 
-                            alt = "Contact Us"
-                            width = '200'
-                            height = '200'
-                        />
+                        <div className = "consimg">
+                            <Image
+                                src = {conus} 
+                                alt = "Contact Us"
+                                width = '200'
+                                height = '200'
+                            />
+                        </div> 
                     </div>    
                 </div>
             </div>

@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #DFDFDF;
+}
+* .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* .arrow {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+* .scrollTop {
+  display: flex;
+  justify-content: center;
+  margin-left: 110px;
+  margin-top: 20px;
+  bottom: 50px;
+  right: 30px;
+  padding: 11px 20px;
+  width: 10px;
+  background-color: #da8d00;
+  color: #fff;
+  border-radius: 5px;
+  border-radius: 1px solid white;
+  cursor: pointer;
+  transition: all 0.5 ease 0s;
+}
+* .scrollTop:hover {
+  background-color: black;
+  color: #2c6eaf;
+}
+* .searchfooter {
+  display: flex;
+  width: max-content;
+  align-items: center;
+  padding: 14px;
+}
+* .search-input-footer {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  background: transparent;
+  border-radius: 20px;
+  padding: 10px;
+  outline: none;
+  border: 3px solid black;
+}
+* .footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* .logofooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* .logofooter p {
+  font-family: "Galada", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  color: #58697A;
+  text-decoration: none;
+}
+* .logofooter img {
+  margin-top: 10px;
+  cursor: pointer;
+  width: 350px;
+}
+* .footer {
+  border-top: 3px solid #58697A;
+  margin-top: 20px;
+}
