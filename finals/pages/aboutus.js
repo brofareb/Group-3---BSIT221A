@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import logo from '../public/assets/logo1.png'
 import logo1 from '../public/assets/origlogo.png'
-import Header from "@/components/constants/Header";
+
 
 
 export default function AboutUs () {
@@ -50,27 +50,10 @@ export default function AboutUs () {
             </div>
         </div>
 
-        <div className="about-footer">
-            <div className="logofooter">
-                <Image 
-                    src={logo1}
-                    alt="The Recipe Room Logo"
-                    width='200'
-                    height='80'
-                />
-            </div>
+    
 
-        </div>
+        
         </>
     );
 }
 
-
-AboutUs.getLayout = function PageLayout(page) {
-    return (
-        <>
-        <Header />
-            {page}
-        </>
-    )
-}
