@@ -20,8 +20,8 @@ import "@/styles/pagestyles/contacts.scss"
 import "@/styles/pagestyles/viewpage.scss"
 
 /*Import for Header and Footer*/
-import Header from "./Components/Constants/Header";
-import Footer from "./Components/Constants/Footer";
+import Header from "/Components/Constants/Header";
+import Footer from "/Components/Constants/Footer";
 
 function App({ Component, pageProps }) {
   if (Component.getLayout) {
