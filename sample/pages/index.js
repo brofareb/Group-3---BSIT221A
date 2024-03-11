@@ -66,7 +66,7 @@ export async function getStaticProps() {
   const fileContent = fs.readFileSync(filePath, 'utf8');
   const data = JSON.parse(fileContent);
 
-  console.log(data);
+ 
   return {
       props: {
           recipe: data,
