@@ -79,7 +79,7 @@
         margin-top: 5px;
         margin-left: 5px;
         margin-right: 5px;
-        font-size: 20px;
+        font-size: 16px;
         font-style: italic;
     }
 
@@ -94,14 +94,18 @@
     .descriptionp1 p{
         color: #58697A;
         margin-top: 10px;
-        margin-left: 20px;
-        margin-right: 5px;
-        font-size: 30px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 16px;
         font-style: italic;
+        justify-content: center;
     }
 
     .showOnMobile{
         display: block;
+        justify-content: center;
+        margin-left: 22px;
+       
     }
 
     .mobile {

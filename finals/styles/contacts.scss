@@ -166,24 +166,29 @@
         color: #58697A;
 
         .contact, .inquiry{        
-            text-align: justify;
+            text-align: center;
             font-style: italic;
-            font-size: 1.90vh;
-            width: 70%;
+            font-size: 14px;
+            width: 92%;
+            margin-top: 2px;
         }
 
         .list{
             margin-top: 15px;
-            margin-left: 50px;
+            margin-left: 1px;
+          
 
             .contact-list li, .info-email li{
                 font-size: 1.90vh;
                 font-weight: bold;
+                list-style-type: none;
+               
             }  
         }
 
         .container{
             display: flex;
+            margin-left: 30px;
         }
     }   
 }

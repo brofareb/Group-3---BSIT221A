@@ -38,7 +38,10 @@
     
 // hamburger menu toh
 .menu {display: none;}
-.menu li {padding-left: 30px;}
+.menu li {
+    padding-left: 30px;
+    list-style-type: none;
+}
 .menu li a {
     display: inline-block;
     text-decoration: none;
@@ -47,6 +50,7 @@
     transition: 0.15s ease-in-out;
     position: relative;
     text-transform: uppercase;
+    
 }
 .menu li a::after {
     content: "";
