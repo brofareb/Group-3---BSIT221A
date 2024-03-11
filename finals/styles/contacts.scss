@@ -69,20 +69,22 @@
         color: #58697A;
 
         .contact, .inquiry{        
-            text-align: justify;
+            text-align: center;
             font-style: italic;
             font-size: 3vh;
             margin-bottom: 20px;
-            width: 40%;
+            width: 83%;
+            
         }
 
         .list{
-            margin-top: 15px;
+            margin-top: 20px;
             margin-left: 30px;
-
+        
             .contact-list li, .info-email li{
                 font-size: 1.90vh;
                 font-weight: bold;
+                list-style-type: none;
             }  
         }
 
