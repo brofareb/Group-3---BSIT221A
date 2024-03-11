@@ -45,14 +45,5 @@ export default function Header ({recipes}) {
         </>
     );
 }
-export async function getStaticProps() {
-    const filePath = path.join(process.cwd(), 'recipe.json')
-    const fileContent = fs.readFileSync(filePath, 'utf8')
-    const data = JSON.parse(fileContent)
 
-    return {
-        props: {
-            recipes: data
-        }
-    }
-}
+
