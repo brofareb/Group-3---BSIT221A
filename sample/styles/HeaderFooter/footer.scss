@@ -1,0 +1,27 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #DFDFDF;
+
+    .footer{
+        display: flex;
+        justify-content:center;
+        align-items: center; 
+        border-top: 3px solid #58697A;
+        margin-top: 20px;
+        
+    }
+    .logofooter{
+        display: flex;
+        justify-content:center;
+        align-items: center; 
+    }
+    .logofooter img{
+        margin-top: 10px;
+        cursor: pointer;
+        width: 350px;
+    }
+   
+}
