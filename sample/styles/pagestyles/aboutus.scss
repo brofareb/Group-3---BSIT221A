@@ -70,7 +70,47 @@
 
 }
 
-@media (max-width: 320px){
+@media only screen and (max-width: 768px) {
+
+    .abouttitle {
+        font-size: 40px;
+    }
+
+    .descriptionp p{
+        font-size: 50px;
+    }
+
+    .descriptionp1 p{
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 40px;
+    
+    }
+
+    .descriptionp1 {
+        padding-left: 10px;
+        padding-right: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .showOnMobile{
+        display: block;
+    }
+
+    .mobile {
+        text-align: center;
+    }
+
+    .mobile img{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
 
     .abouttitle {
         font-size: 30px;
@@ -91,10 +131,12 @@
         padding-left: 5px;
         padding-right: 5px;
         display: flex;
+        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
+
     .descriptionp1 p{
         color: #58697A;
         margin-top: 10px;
@@ -121,30 +163,33 @@
         width: 150px;
         height: 50px;
     }
-
-
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait){
+@media only screen and (max-width: 320px) {
 
     .abouttitle {
-        font-family: "Inter", sans-serif;
-        font-size: 40px;
-        text-align: center;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        color: #58697A;
+        font-size: 30px;
+        margin-bottom: 0px;
     }
 
     .descriptionp p{
         font-weight: bold;
         color: #58697A;
-        margin-top: 10px;
-        margin-left: 20px;
-        margin-right: 20px;
-        font-size: 31px;
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 20px;
         font-style: italic;
-        padding: 10px;
+    }
+
+    .descriptionp1 {
+        padding-left: 5px;
+        padding-right: 5px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .descriptionp1 p{
@@ -152,7 +197,25 @@
         margin-top: 10px;
         margin-left: 20px;
         margin-right: 20px;
-        font-size: 31px;
+        font-size: 20px;
         font-style: italic;
+    }
+
+    .showOnMobile{
+        display: block;
+    }
+
+    .mobile {
+        text-align: center;
+    }
+
+    .mobile img{
+        width: 100px;
+        height: 100px;
+    }
+
+    .logofooter img{
+        width: 150px;
+        height: 50px;
     }
 }

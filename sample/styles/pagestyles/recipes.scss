@@ -84,6 +84,7 @@
 
   .recipeboxes {
     transition: 0.2s ease-in-out;
+    
   }
   .recipeboxes:hover {
     transform: scale(1.1);
@@ -100,24 +101,66 @@
   .recipe-titles {
     font-family: "Gelasio", sans-serif;
     font-style: italic;
-    margin-top: 5px;
+    margin-top: 0px;
+    margin-bottom: 20px;
   }
 }
 .button_flexing {
   display: flex;
   justify-content: space-evenly;
   margin-top: 30px;
-
 }
 
-/*TABLET VIEW*/
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 510px) {
+  .button_flexing {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    width: 100px;
+  }
 
+  .recipebtn {
+    margin-top: 20px;
+    margin-left: 190px;
+  }
 }
 
-@media only screen and (max-width: 320px) {
-  .recipebtn{
-      
-    }
+@media only screen and (max-width: 319px) {
+  .button_flexing {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    width: 100px;
+  }
+
+  .recipebtn {
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width:339px){
+
+  .button_flexing {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    width: 100px;
+  }
+
+  .recipebtn {
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+
+  .container {
+    margin-left: 100px;
+  }
 }

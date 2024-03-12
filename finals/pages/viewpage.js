@@ -32,6 +32,7 @@ export default function ViewPage({recipes}) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="assets/logo1.png" />
     </Head>
+    
       <section className="viewpage">
           <div className="title">
             <h1 className="recipetitle">{selectedRecipe.Recipe_Name}</h1>

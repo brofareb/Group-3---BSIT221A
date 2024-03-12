@@ -6,6 +6,7 @@ import { useState } from "react";
 import Link from "next/link";
 
 export default function Recipe({ recipe }) {
+  
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [searchTerm, setSearchTerm] = useState("");
   const handleCategoryClick = (category) => {
@@ -28,6 +29,8 @@ export default function Recipe({ recipe }) {
       typeof recipe.Recipe_Name === "string" &&
       recipe.Recipe_Name.toLowerCase().includes(searchTerm.toLowerCase())
   );
+
+
   return (
     <>
       <Head>
@@ -48,7 +51,7 @@ export default function Recipe({ recipe }) {
       <input className="searchbar" placeholder="Search Recipes..." onKeyUp={handleSearch}></input>
   
       </div>
-
+      
       <section className="button_flexing">
         <button
           onClick={() => handleCategoryClick(null)}
@@ -80,6 +83,8 @@ export default function Recipe({ recipe }) {
         >
           Dinner
         </button>
+
+        
       </section>
 
       <section className="recipesection">
@@ -104,6 +109,7 @@ export default function Recipe({ recipe }) {
     </>
   );
 }
+
 
 export async function getStaticProps() {
   const filePath = path.join(process.cwd(), "./pages/recipe.json");
