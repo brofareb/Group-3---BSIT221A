@@ -5,8 +5,6 @@ import Link from "next/link";
 import fs from 'fs';
 import path from "path";
 
-
-
 const inter = Inter({ subsets: ["latin"] });
 
 export default function HomePage({recipe}) {
@@ -22,15 +20,9 @@ export default function HomePage({recipe}) {
       </Head>
       <section className="section1">
       <div className="container"> 
-      <form>
-        <div className="mobile">
-            <div class="search-home">
-                <input class="search-input" type="search" placeholder="Search Recipes..."></input>
-            </div>
-            </div>
-        </form>
         <h1 className="hometitle">Top 10 Recipes</h1>
         </div>
+
 
         <section className="recipe-section">
             {recipe && recipe.slice(0,5).map((recipes) => {

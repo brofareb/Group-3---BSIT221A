@@ -8,15 +8,11 @@
     padding: 0;
     background-color: #DFDFDF;
 
-    .search-home{
-        display: none;
-    }
-
     .section1 h1{
         font-family: "Galada", sans-serif;
-        text-align: center;
         margin-top: 10px;
         font-size: 80px;
+        margin-right: 250px;
         color: #58697A;
         font-weight: 300;
     }
@@ -53,10 +49,6 @@
         font-weight: 100;
     }
 
-    .section1 {
-        border-bottom: 3px solid #58697A;
-    }
-
     .viewmore {
         display: block;
         margin: auto;
@@ -83,129 +75,33 @@
 
 }
 
-
-@media (max-width: 320px) {
-    .search-home {
-        display: block;
-        width: 250px;
-        margin-top: 10px;
-        margin-left: 35px;
-        border-radius: 3px;
-    }
-
+/*MOBILE SIZE*/
+@media only screen and (max-width: 320px) {
     .section1 h1{
         font-size: 50px;
-    }
-
-    .heart {
         text-align: center;
-        margin-top: 20px;
-    }
-
-    .heart img{
-        width: 50px;
-        height: 50px;
-    }
-
-    .description-c2{
-        font-size: 25px;
-        padding: 20px;
-        margin: 20px;
-    }
-
-    .logo1 img {
-        width: 100px;
-        height: 80px;
-        margin-bottom: 20px;
-    }
-
-    .spoon img{
-        width: 50px;
-        height: 50px;
-        margin-top: 20px;
-    }
-
-    .section3 h1 {
-        font-size: 50px;
-    }
-
-    .category {
-        flex-direction: column;
-    }
-
-    .category img {
-        width:  200px;
-        height: 250px;
-        
-    }
-
-    .category h1{
-        font-family: "Gelasio", sans-serif;
-        font-style: italic;
-        font-weight: 100;
-        text-align: center;
-        font-size: 30px;
-        
-    }
-
-    .category p {
-        display: none;
+        margin-right: 25px;
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-
-    .hometitle{
-        font-family: "Galada", sans-serif;
+@media only screen and (max-width: 534px) {
+.section1 h1{
+        font-size: 50px;
         text-align: center;
+        margin-right: 25px;
+    }
+}
+
+/*TABLET SIZE*/
+@media only screen and (max-width: 768px) {
+
+    .section1 h1{
+        font-family: "Galada", sans-serif;
+        
         margin-top: 10px;
         font-size: 50px;
         color: #58697A;
         font-weight: 300;
-    }
-
-    .recipe img {
-        width: 114px;
-        height: 80px;
-        border: 2px solid black;
-        box-shadow: 10px 10px rgb(185, 182, 182);
-        
-    }
-
-    .recipes1{
-        display: flex;
-        justify-content: space-evenly;
-        text-align: center;
-        gap: 15px;
-        margin-left: 20px;
-        margin-right: 13px;
-    }
-
-    .recipe p{
-        font-family: "Inter", sans-serif;
-        font-size: 10px;
-        text-align: center;
-        color: black;
-        font-weight: 300; 
-    }
-
-    .recipe p{
-        font-family: "Inter", sans-serif;
-        font-size: 9px;
-        text-align: center;
-        color: black;
-        font-weight: 300; 
-    }
-
-    .recipe h4{
-        font-family: "Gelasio", sans-serif;
-        font-style: italic;
-        font-weight: 100;
-        color: #58697A;
-        margin-top: 10px;
-        text-align: center;
-        font-size: 14px;
-        
     }
 
     .recipetitles{
@@ -233,80 +129,6 @@
         font-size: 11px;
     }
 
-    .text-c2 p{
-        font-family: "Gelasio", sans-serif;
-        font-size: 40px;
-        font-style: italic;
-        text-align: center;
-        color: #58697A;
-        padding: 5px;
-    }
-
-    .logo1 img{
-        width: 115px;
-    }
-
-    .spoon {
-        text-align: center;
-        margin-top: 15px;
-    }
-
-    .spoon img{
-        width: 65px;
-
-    }
-
-    .latestrecipes {
-        font-family: "Galada", sans-serif;
-        font-size: 50px;
-        text-align: center;
-        font-weight: 400;
-        color: #58697A;
-    }
-
-    .category img {
-        width: 265px;
-        height: 257px;
-        margin: 15px 40px;
-        border: 2px solid black;
-        box-shadow: 10px 10px rgb(185, 182, 182);
-        
-    }
-
-    .category h1{
-        font-family: "Gelasio", sans-serif;
-        font-style: italic;
-        font-weight: 100;
-        margin-top: 25px;
-        text-align: center;
-        font-size: 55px;
-        
-    }
-
-    .category p {
-        font-family: "Inter", sans-serif;
-        font-size: 15px;
-        text-align: center;
-        align-items: center;
-        padding: 45px;
-        font-style: italic;
-        color: #58697A;
-
-    }
-
-    .viewmore-section3 {
-        display: block;
-        margin: auto;
-        height: 40px;
-        padding: 0 20px;
-        border: 0;
-        border-radius: 4px;
-        background-color: #58697A;
-        color: white;
-        transition: .3s linear;
-        margin-top: -12px;
-        margin-bottom: 35px;
-        font-size: 12px;
-    }
+   
 
 }
