@@ -3,7 +3,10 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 import fs from 'fs';
+import HEART from '../public/assets/HEART.png'
+import logo1 from '../public/assets/logo1.png'
 import path from "path";
+
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -41,11 +44,39 @@ export default function HomePage({recipe}) {
                     </Link>
                 );
             })}
+
+            
         </section>
 
 
         <div className="button">
           <Link className="viewmore" href="/recipes">View More</Link>
+        </div>
+      </section>
+      
+      <section className="section2">
+        <div className="container2">
+          <div className="heart">
+            <Image 
+              src= {HEART}
+              alt="Heart"
+              width='70'
+              height='70'
+            />
+          </div>
+
+          <div className="text-c2">
+            <p>"Discover a world of culinary <br />inspiration with The Recipe Room, <br /> your ultimate recipe repository!"</p>
+          </div>
+
+          <div className="logo1">
+            <Image 
+              src={logo1}
+              alt="The Recipe Room Logo (1)"
+              width='150'
+              height='150'
+            />
+          </div>
         </div>
       </section>
 

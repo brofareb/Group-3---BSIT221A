@@ -46,8 +46,9 @@ export default function Recipe({ recipe }) {
 
       <div className="container"> 
       <input className="searchbar" placeholder="Search Recipes..." onKeyUp={handleSearch}></input>
-      <div className="search"></div>
+  
       </div>
+
       <section className="button_flexing">
         <button
           onClick={() => handleCategoryClick(null)}

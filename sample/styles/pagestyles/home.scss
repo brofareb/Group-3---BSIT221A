@@ -8,6 +8,7 @@
     padding: 0;
     background-color: #DFDFDF;
 
+
     .section1 h1{
         font-family: "Galada", sans-serif;
         margin-top: 10px;
@@ -71,6 +72,36 @@
         cursor: pointer;
     }
 
+    .button {
+        border-bottom: 3px solid #58697A;
+    }
+
+    .heart {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .heart img{
+        width: 70px;
+    }
+
+    .text-c2{
+        font-family: "Gelasio", sans-serif;
+        font-size: 50px;
+        font-style: italic;
+        text-align: center;
+        color: #58697A;
+        padding: 5px;
+    }
+
+    .logo1 img{
+        width: 150px;
+    }
+
+    .logo1 {
+        text-align: center;
+    }
+
    
 
 }
@@ -81,6 +112,27 @@
         font-size: 50px;
         text-align: center;
         margin-right: 25px;
+    }
+
+    .heart {
+        margin-top: 10px;
+    }
+
+    .heart img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .text-c2{
+
+        font-size:25px;
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+
+    .logo1 img{
+        width: 100px;
+        height: 80px;
     }
 }
 
@@ -128,7 +180,5 @@
         text-align: center;
         font-size: 11px;
     }
-
-   
 
 }
