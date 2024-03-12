@@ -93,31 +93,10 @@
 #check {display: none;}
 //end ng hamburger menu
 
-
-    .search {
-        width: max-content;
-        display: flex;
-        align-items: center;
-        padding: 14px;
-    }
-    
-    .search-input {
-        font-size: 16px;
-        font-family: "Inter", sans-serif;
-        background: transparent;
-        border-radius: 15px;
-        padding: 10px;
-        outline: none;
-        border: 2px solid black;
-    }
 }
 
 @media (max-width:511px) {
     .navlinks{
-        display: none;
-    }
-
-    .search-input{
         display: none;
     }
 
@@ -140,16 +119,8 @@
     .open-menu , .close-menu {display:flow-root;}
     #check:checked ~ .menu {right: 0;}
 
-
-}
-
-@media (max-width: 346px) {
-    .navlinks{
-        display: none;
-    }
-
-    .search-input{
-        display: none;
+    .open-menu {
+        margin-right: 30px;
     }
 
     .menu {
@@ -179,10 +150,6 @@
     }
 
     .navlinks {
-        display: none;
-    }
-
-    .search-input{
         display: none;
     }
 
@@ -220,24 +187,6 @@
         font-size: 12px;
         color: #58697A;
         text-decoration: none;
-    }
-
-    .search-input {
-        font-size: 11px;
-        font-family: "Inter", sans-serif;
-        background: transparent;
-        border-radius: 15px;
-        padding: 10px;
-        outline: none;
-        border: 2px solid black;
-    }
-
-    .search {
-        width: max-content;
-        display: flex;
-        align-items: center;
-        padding: 14px;
-        padding-left: 0px;
     }
     
     .header {
