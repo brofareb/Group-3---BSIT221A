@@ -128,6 +128,28 @@
   }
 }
 
+@media only screen and (max-width: 415px){
+
+  .button_flexing {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    width: 100px;
+  }
+
+  .recipebtn {
+    margin-top: 20px;
+    margin-left: 150px;
+  }
+
+  .container {
+    margin-left: 100px;
+  }
+}
+
+
 @media only screen and (max-width: 319px) {
   .button_flexing {
     display: flex;
